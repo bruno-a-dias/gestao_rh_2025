@@ -1,0 +1,97 @@
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
+
+class App {
+  private appElement: HTMLElement;
+
+  constructor() {
+    this.appElement = document.getElementById('app')!;
+    this.render();
+  }
+
+  private render() {
+    const header = new Header().render();
+    const footer = new Footer().render();
+
+    // Conteúdo principal da página
+    const mainContent = `
+      <main>
+        <!-- Seção Hero com Parallax -->
+        <section class="parallax-section text-center">
+          <div class="container fade-in">
+            <h1 class="section-title">Gestão de RH, Inovação e Resultados</h1>
+            <p class="lead">Transforme sua equipe com as melhores práticas de RH e liderança.</p>
+            <a href="#servicos" class="btn btn-custom mt-3">Conheça nossos serviços</a>
+          </div>
+        </section>
+
+        <!-- Seção de Serviços -->
+        <section id="servicos" class="container py-5">
+          <h2 class="section-title text-center mb-5">Nossos Serviços</h2>
+          <div class="row g-4">
+            <!-- Card: Treinamento e Desenvolvimento -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card fade-in">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Treinamento & Desenvolvimento</h5>
+                  <p class="card-text">Capacitação inovadora para equipes de alta performance.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card: Análise de Cargos e Salários -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card fade-in">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Análise de Cargos e Salários</h5>
+                  <p class="card-text">Estratégias de remuneração justas e competitivas.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card: Recrutamento e Seleção -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card fade-in">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Recrutamento & Seleção</h5>
+                  <p class="card-text">Processos seletivos modernos com inteligência de dados.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card: Avaliações de Desempenho -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card fade-in">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Avaliações de Desempenho</h5>
+                  <p class="card-text">Métodos modernos para medir e impulsionar resultados.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card: Dinâmicas de Grupo -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card fade-in">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Dinâmicas de Grupo</h5>
+                  <p class="card-text">Atividades para avaliar competências e trabalho em equipe.</p>
+                </div>
+              </div>
+            </div>
+             <!-- Card: Currículo Perfeito -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card fade-in">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Criando o Currículo Perfeito</h5>
+                  <p class="card-text">Guia passo a passo para se destacar em processos seletivos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    `;
+
+    // Renderiza a página completa
+    this.appElement.innerHTML = `${header}${mainContent}${footer}`;
+  }
+}
+
+// Inicia a aplicação
+new App();

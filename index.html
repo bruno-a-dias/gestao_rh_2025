@@ -1,0 +1,2000 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestão RH Inovadora</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CAMINHO ATUALIZADO para a pasta CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <!-- Cabeçalho Fixo Atualizado -->
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Gestão RH</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#detalhes-servicos">Base de Conhecimento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#recrutamento-digital">Plataformas</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tópicos Avançados
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#pilar-estrategico">Pilar Estratégico</a></li>
+                <li><a class="dropdown-item" href="#futuro-rh">Futuro do RH</a></li>
+                <li><a class="dropdown-item" href="#pilar-humano">Pilar Humano</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#esg-rh">ESG no RH</a></li>
+                <li><a class="dropdown-item" href="#avaliacao-psicologica">Avaliação Psicológica</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+
+    <!-- Conteúdo Principal -->
+    <main>
+      <section class="parallax-section text-center">
+        <div class="container fade-in">
+          <h1 class="section-title">Gestão de RH, Inovação e Resultados</h1>
+          <p class="lead">
+            Transforme sua equipe com as melhores práticas de RH e liderança.
+          </p>
+          <a href="#servicos" class="btn btn-custom mt-3"
+            >Conheça nossos serviços</a
+          >
+        </div>
+      </section>
+
+      <section id="servicos" class="container py-5">
+        <h2 class="section-title text-center mb-5">Nossos Serviços</h2>
+        <div class="row g-4">
+          <!-- Cards de serviço (sem alteração) -->
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card interactive-card fade-in"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-td"
+            >
+              <div class="card-body text-center">
+                <h5 class="card-title">Treinamento & Desenvolvimento</h5>
+                <p class="card-text">
+                  Capacitação inovadora para equipes de alta performance.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card interactive-card fade-in"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-cargos"
+            >
+              <div class="card-body text-center">
+                <h5 class="card-title">Análise de Cargos e Salários</h5>
+                <p class="card-text">
+                  Estratégias de remuneração justas e competitivas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card interactive-card fade-in"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-rs"
+            >
+              <div class="card-body text-center">
+                <h5 class="card-title">Recrutamento & Seleção</h5>
+                <p class="card-text">
+                  Processos seletivos modernos com inteligência de dados.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card interactive-card fade-in"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-desempenho"
+            >
+              <div class="card-body text-center">
+                <h5 class="card-title">Avaliações de Desempenho</h5>
+                <p class="card-text">
+                  Métodos modernos para medir e impulsionar resultados.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card interactive-card fade-in"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-dinamicas"
+            >
+              <div class="card-body text-center">
+                <h5 class="card-title">Dinâmicas de Grupo</h5>
+                <p class="card-text">
+                  Atividades para avaliar competências e trabalho em equipe.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="card interactive-card fade-in"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-curriculo"
+            >
+              <div class="card-body text-center">
+                <h5 class="card-title">Criando o Currículo Perfeito</h5>
+                <p class="card-text">Guia passo a passo para se destacar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Seção de Modais (sem alteração) -->
+    <!-- Modal 1: Treinamento e Desenvolvimento -->
+    <div class="modal fade" id="modal-td" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Treinamento & Desenvolvimento</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              É o processo que capacita colaboradores para aprimorar
+              habilidades, alinhando-os aos objetivos da empresa.
+            </p>
+            <div class="accordion" id="accordion-td">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#td-collapse-1"
+                  >
+                    <strong>Etapa 1: Diagnóstico (LNT)</strong>
+                  </button>
+                </h2>
+                <div
+                  id="td-collapse-1"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion-td"
+                >
+                  <div class="accordion-body">
+                    Levantamento das Necessidades de Treinamento através de
+                    avaliações, feedback e planejamento estratégico.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#td-collapse-2"
+                  >
+                    <strong>Etapa 2: Planejamento e Execução</strong>
+                  </button>
+                </h2>
+                <div
+                  id="td-collapse-2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion-td"
+                >
+                  <div class="accordion-body">
+                    Definição de objetivos, metodologias (online, presencial,
+                    gamificação) e aplicação do treinamento.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#td-collapse-3"
+                  >
+                    <strong>Etapa 3: Avaliação</strong>
+                  </button>
+                </h2>
+                <div
+                  id="td-collapse-3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion-td"
+                >
+                  <div class="accordion-body">
+                    Mensuração de resultados através de indicadores de reação,
+                    aprendizado, comportamento e impacto no negócio (ROI).
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="alert alert-success mt-3">
+              <strong>Benefício principal:</strong> Aumento de produtividade e
+              retenção de talentos.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 2: Análise de Cargos e Salários -->
+    <div class="modal fade" id="modal-cargos" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Análise de Cargos e Salários</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Processo que define as responsabilidades e o valor de cada cargo
+              para criar uma estrutura salarial justa e competitiva.
+            </p>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Etapa</th>
+                  <th>Descrição</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Descrição de Cargos</strong></td>
+                  <td>Documenta funções, responsabilidades e qualificações.</td>
+                </tr>
+                <tr>
+                  <td><strong>Avaliação de Cargos</strong></td>
+                  <td>
+                    Compara cargos internamente para definir uma hierarquia de
+                    valor.
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Pesquisa Salarial</strong></td>
+                  <td>
+                    Coleta dados do mercado para garantir competitividade
+                    externa.
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Estrutura Salarial</strong></td>
+                  <td>
+                    Cria faixas salariais que permitem a progressão na carreira.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="alert alert-info mt-3">
+              <strong>Vantagens:</strong> Equidade interna, competitividade
+              externa e transparência.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 3: Recrutamento e Seleção -->
+    <div class="modal fade" id="modal-rs" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Recrutamento & Seleção</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              O <strong>recrutamento</strong> atrai candidatos, enquanto a
+              <strong>seleção</strong> escolhe o mais adequado. Veja as
+              tendências modernas:
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>Inteligência Artificial:</strong> Para triagem de
+                currículos e análise de perfil.
+              </li>
+              <li class="list-group-item">
+                <strong>Recrutamento Social:</strong> Uso do LinkedIn e outras
+                redes para encontrar talentos.
+              </li>
+              <li class="list-group-item">
+                <strong>Entrevistas por Vídeo:</strong> Otimizam o tempo e
+                alcançam candidatos em qualquer lugar.
+              </li>
+              <li class="list-group-item">
+                <strong>People Analytics:</strong> Uso de dados para decisões de
+                contratação mais estratégicas.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 4: Avaliações de Desempenho -->
+    <div class="modal fade" id="modal-desempenho" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Avaliações de Desempenho</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Ferramentas sistemáticas para medir e analisar a performance de um
+              colaborador. O foco moderno é no desenvolvimento contínuo.
+            </p>
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button
+                  class="nav-link active"
+                  id="nav-360-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-360"
+                  type="button"
+                  role="tab"
+                >
+                  Avaliação 360°</button
+                ><button
+                  class="nav-link"
+                  id="nav-competencias-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-competencias"
+                  type="button"
+                  role="tab"
+                >
+                  Por Competências</button
+                ><button
+                  class="nav-link"
+                  id="nav-metas-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-metas"
+                  type="button"
+                  role="tab"
+                >
+                  Por Metas (OKR/APO)
+                </button>
+              </div>
+            </nav>
+            <div class="tab-content pt-3" id="nav-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="nav-360"
+                role="tabpanel"
+              >
+                <p>
+                  Análise completa onde o colaborador recebe feedback de
+                  múltiplas fontes: gestores, pares, subordinados e até
+                  clientes.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="nav-competencias" role="tabpanel">
+                <p>
+                  Foca em avaliar as habilidades técnicas (hard skills) e
+                  comportamentais (soft skills) essenciais para a função.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="nav-metas" role="tabpanel">
+                <p>
+                  O desempenho é medido com base no alcance de metas e
+                  resultados previamente acordados entre gestor e colaborador.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 5: Dinâmicas de Grupo -->
+    <div class="modal fade" id="modal-dinamicas" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Dinâmicas de Grupo</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Atividades práticas para observar o comportamento dos candidatos
+              em situações que simulam o dia a dia de trabalho.
+            </p>
+            <div class="row">
+              <div class="col-md-6">
+                <h5>Dinâmicas em Grupo</h5>
+                <ul class="list-unstyled">
+                  <li>✔️ Avaliam trabalho em equipe</li>
+                  <li>✔️ Liderança e comunicação</li>
+                  <li>✔️ Resolução de conflitos</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h5>Dinâmicas Individuais</h5>
+                <ul class="list-unstyled">
+                  <li>✔️ Avaliam raciocínio lógico</li>
+                  <li>✔️ Planejamento e criatividade</li>
+                  <li>✔️ Habilidade de apresentação</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 6: Criando o Currículo Perfeito -->
+    <div class="modal fade" id="modal-curriculo" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Criando o Currículo Perfeito</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Um guia rápido para você se destacar em qualquer processo
+              seletivo.
+            </p>
+            <ol class="list-group list-group-numbered">
+              <li
+                class="list-group-item d-flex justify-content-between align-items-start"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Objetivo e Resumo</div>
+                  Destaque sua área de interesse e suas principais competências
+                  em 3-4 linhas.
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-start"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Experiência com Resultados</div>
+                  Liste suas experiências da mais recente para a mais antiga e
+                  quantifique suas conquistas (ex: "reduzi custos em 15%").
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-start"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Adapte para a Vaga</div>
+                  Personalize seu currículo para cada aplicação, usando
+                  palavras-chave da descrição da vaga.
+                </div>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-start"
+              >
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Revise Tudo</div>
+                  Erros de português podem eliminar um bom candidato. Peça para
+                  outra pessoa ler.
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =================================================================== -->
+    <!-- ============= INÍCIO DA SEÇÃO DE CONTEÚDO DETALHADO ============= -->
+    <!-- =================================================================== -->
+    <section id="detalhes-servicos" class="container py-5">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Base de Conhecimento em RH</h2>
+        <p class="lead">
+          Tudo o que você precisa saber sobre cada tópico, em um só lugar.
+        </p>
+      </div>
+
+      <!-- Navegação por Abas -->
+      <ul class="nav nav-tabs nav-fill mb-4" id="rhTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="td-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#td-content"
+            type="button"
+            role="tab"
+          >
+            Treinamento e Desenvolvimento
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="cargos-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#cargos-content"
+            type="button"
+            role="tab"
+          >
+            Cargos e Salários
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="rs-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#rs-content"
+            type="button"
+            role="tab"
+          >
+            Recrutamento e Seleção
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="desempenho-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#desempenho-content"
+            type="button"
+            role="tab"
+          >
+            Avaliação de Desempenho
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="dinamicas-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#dinamicas-content"
+            type="button"
+            role="tab"
+          >
+            Dinâmicas de Grupo
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="curriculo-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#curriculo-content"
+            type="button"
+            role="tab"
+          >
+            Currículo Perfeito
+          </button>
+        </li>
+      </ul>
+
+      <!-- Conteúdo das Abas -->
+      <div class="tab-content" id="rhTabContent">
+        <!-- Conteúdo 1: Treinamento e Desenvolvimento (Versão Exponencialmente Ampliada) -->
+<div class="tab-pane fade show active p-4" id="td-content" role="tabpanel">
+    <h4>A Alquimia de Transformar Potencial em Performance</h4>
+    <p>
+        Treinamento e Desenvolvimento (T&D) é o motor que impulsiona o capital humano de uma organização. Longe de ser um custo, é o investimento mais estratégico que uma empresa pode fazer em seu próprio futuro. Enquanto o <strong>Treinamento</strong> foca em capacitar o colaborador para as demandas do <strong>presente</strong> (fechando gaps de competência), o <strong>Desenvolvimento</strong> é uma jornada de longo prazo que esculpe os líderes e especialistas do <strong>futuro</strong>, preparando-os para desafios que ainda nem existem.
+    </p>
+
+    <h5 class="mt-4">Treinamento vs. Desenvolvimento: Entendendo a Diferença Crucial</h5>
+    <p>Embora usados juntos, seus focos e objetivos são distintos e complementares.</p>
+
+    <div class="card exercise-card mb-4">
+        <div class="card-header fw-bold">
+            Comparativo Estratégico
+        </div>
+        <div class="card-body">
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th>Aspecto</th>
+                        <th>Treinamento (Foco no Cargo Atual)</th>
+                        <th>Desenvolvimento (Foco na Carreira Futura)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Foco</strong></td>
+                        <td>Aperfeiçoar habilidades para a função atual. É reativo a uma necessidade.</td>
+                        <td>Expandir competências para desafios futuros e crescimento na carreira. É proativo.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Horizonte</strong></td>
+                        <td>Curto prazo. Resultados imediatos e mensuráveis.</td>
+                        <td>Longo prazo. Prepara para sucessão e novas responsabilidades.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Objetivo</strong></td>
+                        <td>Melhorar a performance na tarefa. Ex: Aprender a usar um novo software.</td>
+                        <td>Ampliar a visão do colaborador. Ex: Desenvolver pensamento estratégico.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Iniciativa</strong></td>
+                        <td>Geralmente orientada pela empresa/gestor.</td>
+                        <td>Uma parceria entre empresa e colaborador, com forte incentivo à autogestão.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card-footer">
+            <strong>Observação Lúdica:</strong> <em>"Pense em T&D como uma academia. O <strong>Treinamento</strong> é quando o personal te ensina a usar a máquina de leg press corretamente para não se machucar hoje. O <strong>Desenvolvimento</strong> é o plano de treino completo que ele monta para você correr uma maratona daqui a um ano. Um resolve uma dor imediata, o outro constrói a capacidade para o futuro."</em>
+        </div>
+    </div>
+
+    <hr class="my-5">
+
+    <h4>As 4 Etapas do Ciclo de T&D (Modelo ADDIE Adaptado)</h4>
+    <p>Um programa de T&D eficaz não nasce do acaso. Ele segue um ciclo lógico e estratégico, similar ao modelo ADDIE (Analysis, Design, Development, Implementation, Evaluation), referência mundial em design instrucional.</p>
+
+    <!-- Etapa 1: Diagnóstico -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1573495627361-d9b87960b12d?q=80&w=1769&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Pessoas em uma reunião estratégica analisando gráficos.">
+        </div>
+        <div class="col-md-8">
+            <h5>1. Diagnóstico (O Check-up Corporativo)</h5>
+            <p>Esta é a fase de investigação, onde o RH atua como um "médico organizacional" para descobrir onde estão as "dores". O principal objetivo é realizar um <strong>LNT (Levantamento das Necessidades de Treinamento)</strong>, usando ferramentas como:</p>
+            <ul>
+                <li><strong>Avaliação de Desempenho:</strong> Identifica gaps de competência individuais e de equipe.</li>
+                <li><strong>Pesquisa de Clima:</strong> Revela problemas de comunicação, liderança ou motivação.</li>
+                <li><strong>Entrevistas com Gestores:</strong> Captura as necessidades percebidas por quem está na linha de frente.</li>
+                <li><strong>Análise Estratégica:</strong> Quais novas habilidades a empresa precisará para atingir suas metas de longo prazo?</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Etapa 2: Desenho e Planejamento -->
+    <div class="row align-items-center mb-5 flex-row-reverse">
+        <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1542744173-05336fcc7ad4?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Arquiteto desenhando uma planta em uma mesa de trabalho.">
+        </div>
+        <div class="col-md-8">
+            <h5>2. Desenho e Planejamento (A Planta do Conhecimento)</h5>
+            <p>Com o diagnóstico em mãos, é hora de ser o "arquiteto" da solução de aprendizagem. Nesta fase, define-se:</p>
+            <ul>
+                <li><strong>Objetivos de Aprendizagem:</strong> O que o colaborador será capaz de FAZER após o treinamento? Devem ser específicos e mensuráveis.</li>
+                <li><strong>Público-Alvo:</strong> Quem precisa deste treinamento? O nível de senioridade influencia a abordagem.</li>
+                <li><strong>Metodologia:</strong> Como o aprendizado será entregue? A tendência é o <strong>Blended Learning</strong> (misto), combinando o modelo <strong>70-20-10</strong> (70% na prática, 20% com outros, 10% em cursos formais) com técnicas como gamificação, microlearning e sala de aula invertida.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Etapa 3: Implementação -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1530099486328-e021101a494a?q=80&w=1974&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Professor dando uma aula em uma sala de aula moderna.">
+        </div>
+        <div class="col-md-8">
+            <h5>3. Implementação (O Palco do Aprendizado)</h5>
+            <p>É a hora de colocar o plano em prática. O sucesso aqui depende de garantir um ambiente psicologicamente seguro, onde os participantes se sintam à vontade para errar, perguntar e interagir.</p>
+            <ul>
+                <li><strong>Comunicação e Engajamento:</strong> Divulgue o treinamento de forma a criar desejo, mostrando os benefícios para a carreira do colaborador.</li>
+                <li><strong>Logística:</strong> Seja presencial ou online, a experiência do usuário deve ser impecável (plataforma estável, material de qualidade, etc.).</li>
+                <li><strong>Facilitador/Instrutor:</strong> O papel do instrutor moderno é mais de um facilitador do que de um "palestrante". Ele deve provocar a discussão, guiar a descoberta e conectar o conteúdo com a realidade dos participantes.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Etapa 4: Avaliação -->
+    <div class="row align-items-center mb-5 flex-row-reverse">
+        <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Dashboard com gráficos e métricas de performance.">
+        </div>
+        <div class="col-md-8">
+            <h5>4. Avaliação de Resultados (Medindo o Impacto Real)</h5>
+            <p>Como saber se o investimento valeu a pena? O modelo mais consagrado mundialmente é o de <strong>Donald Kirkpatrick</strong>, que avalia a eficácia do treinamento em 4 níveis progressivos:</p>
+            <ol>
+                <li><strong>Nível 1: Reação</strong> - Os participantes gostaram? (Avaliado via formulários de satisfação).</li>
+                <li><strong>Nível 2: Aprendizado</strong> - Eles aprenderam o conteúdo? (Avaliado via testes, provas, simulações).</li>
+                <li><strong>Nível 3: Comportamento</strong> - Eles estão aplicando o que aprenderam no trabalho? (Avaliado via observação, feedback 360°, avaliação de desempenho).</li>
+                <li><strong>Nível 4: Resultado</strong> - A aplicação do aprendizado gerou impacto no negócio? (Avaliado via KPIs de negócio, como aumento de vendas, redução de custos, melhoria na satisfação do cliente - o famoso <strong>ROI do Treinamento</strong>).</li>
+            </ol>
+        </div>
+    </div>
+
+    <hr class="my-5">
+
+    <h5 class="mt-4">Base Legal e Estratégica</h5>
+    <p>O T&D é uma obrigação legal e uma necessidade estratégica. O não cumprimento de treinamentos obrigatórios pode resultar em pesadas multas, processos trabalhistas e até na interdição das atividades.</p>
+    <div class="alert alert-warning">
+      <strong>Obrigações Legais:</strong> As <strong>Normas Regulamentadoras (NRs)</strong> do Ministério do Trabalho são o principal pilar. A <strong>NR-1</strong> exige que todo empregador prepare ordens de serviço sobre segurança e saúde no trabalho. A <strong>NR-5</strong> (CIPA) e a <strong>NR-35</strong> (Trabalho em Altura) são exemplos de normas que exigem treinamentos específicos e periódicos, com lista de presença e certificado, que servem como prova jurídica para a empresa.
+    </div>
+    <div class="alert alert-info">
+        <strong>Vantagem Estratégica:</strong> Além de cumprir a lei, um plano de T&D bem estruturado é uma poderosa ferramenta de <strong>Employer Branding</strong> (marca empregadora). Ele demonstra que a empresa investe em seus talentos, o que ajuda a atrair e, principalmente, a reter os melhores profissionais. Também é fundamental para criar um pipeline de liderança diverso e inclusivo.
+    </div>
+</div>
+
+
+        <!-- Conteúdo 2: Cargos e Salários (Versão Exponencialmente Ampliada) -->
+<div class="tab-pane fade p-4" id="cargos-content" role="tabpanel">
+    <h4>A Arquitetura da Remuneração Estratégica</h4>
+    <p>
+      A gestão de Cargos e Salários é a espinha dorsal de um RH estratégico. Longe de ser apenas uma tabela de pagamentos, ela é a engenharia que busca o equilíbrio perfeito entre dois pilares fundamentais: o <strong>Equilíbrio Interno</strong> (a percepção de justiça dentro da empresa) e o <strong>Equilíbrio Externo</strong> (a competitividade da empresa em relação ao mercado de talentos). Um Plano de Cargos e Salários (PCS) bem construído não apenas atrai, mas retém e motiva os colaboradores.
+    </p>
+  
+    <h5 class="mt-4">O Dilema do Equilíbrio: Interno vs. Externo</h5>
+    <p>Toda empresa vive este dilema. Pagar muito acima do mercado pode inflar os custos, enquanto pagar abaixo pode levar a uma fuga de talentos.</p>
+  
+    <div class="card exercise-card mb-4">
+      <div class="card-header fw-bold">
+        Os Pilares da Remuneração
+      </div>
+      <div class="card-body">
+        <table class="table table-sm">
+          <thead>
+            <tr>
+              <th>Pilar</th>
+              <th>Objetivo Principal</th>
+              <th>Principal Ferramenta</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Equilíbrio Interno</strong></td>
+              <td>Garantir que cargos de maior responsabilidade, complexidade ou impacto tenham maior remuneração. Percepção de justiça.</td>
+              <td>Avaliação e Descrição de Cargos.</td>
+            </tr>
+            <tr>
+              <td><strong>Equilíbrio Externo</strong></td>
+              <td>Assegurar que os salários da empresa sejam competitivos em relação a outras empresas que disputam os mesmos talentos.</td>
+              <td>Pesquisa Salarial de Mercado.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card-footer">
+          <strong>Observação Lúdica:</strong> <em>"Pense na sua estrutura salarial como uma casa. A 'Avaliação de Cargos' é a planta baixa, definindo o tamanho e a importância de cada cômodo (equilíbrio interno). A 'Pesquisa Salarial' é a avaliação do imóvel na vizinhança, garantindo que o valor da sua casa está de acordo com o mercado (equilíbrio externo). Uma casa com planta ruim e preço errado não atrai compradores."</em>
+      </div>
+    </div>
+  
+    <hr class="my-5">
+  
+    <h4>As 4 Fases da Construção de um Plano de Cargos e Salários</h4>
+    <p>A criação de um PCS é um projeto complexo que segue uma metodologia clara.</p>
+  
+    <!-- Fase 1: Análise e Descrição de Cargos -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Pessoa escrevendo em um documento em uma mesa de trabalho.">
+      </div>
+      <div class="col-md-8">
+        <h5>1. Análise e Descrição de Cargos (O DNA da Função)</h5>
+        <p>É a fase de investigação, onde se coleta informações para entender profundamente cada cargo. O resultado é a <strong>Descrição de Cargo</strong>, um documento formal que detalha:</p>
+        <ul>
+          <li><strong>Missão do Cargo:</strong> A razão de ser daquela posição em uma frase.</li>
+          <li><strong>Principais Responsabilidades:</strong> As atividades-chave e o que se espera do ocupante.</li>
+          <li><strong>Requisitos:</strong> Formação, experiência, competências técnicas e comportamentais necessárias.</li>
+          <li><strong>Relações (Liaison):</strong> Com quem o cargo se reporta e com quais áreas mais interage.</li>
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Fase 2: Avaliação de Cargos -->
+    <div class="row align-items-center mb-5 flex-row-reverse">
+      <div class="col-md-4">
+          <img src="https://images.unsplash.com/photo-1596495577886-d9256f442347?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Balança da justiça em uma mesa.">
+      </div>
+      <div class="col-md-8">
+          <h5>2. Avaliação de Cargos (A Balança da Justiça Interna)</h5>
+          <p>Após descrever os cargos, é hora de compará-los e hierarquizá-los. O método mais robusto e utilizado no mercado é o <strong>Sistema de Pontos (Point-Factor)</strong>.</p>
+          <ul>
+              <li><strong>Como funciona:</strong> A empresa define fatores de avaliação (ex: Conhecimento, Complexidade, Responsabilidade por Resultados, Impacto).</li>
+              <li>Cada cargo é avaliado em cada um desses fatores, recebendo uma pontuação.</li>
+              <li>A soma dos pontos gera uma pontuação total para o cargo, que o posiciona objetivamente na hierarquia da empresa, independentemente do nome do cargo ou do ocupante.</li>
+          </ul>
+      </div>
+    </div>
+  
+    <!-- Fase 3: Pesquisa Salarial -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?q=80&w=1887&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Pessoas analisando gráficos e dados financeiros em uma tela.">
+      </div>
+      <div class="col-md-8">
+        <h5>3. Pesquisa Salarial (O Termômetro do Mercado)</h5>
+        <p>Com os cargos devidamente hierarquizados, a empresa vai ao mercado para ver quanto outras companhias pagam por funções similares. Este processo é geralmente feito com o apoio de consultorias especializadas (como Korn Ferry, Mercer, Willis Towers Watson).</p>
+        <ul>
+          <li><strong>Objetivo:</strong> Coletar dados de salários, bônus e benefícios para definir uma política de remuneração competitiva.</li>
+          <li><strong>Posicionamento:</strong> A empresa decide onde quer se posicionar em relação ao mercado: no <strong>1º quartil</strong> (paga menos, focando em outros benefícios), na <strong>mediana (P50)</strong> (paga o mesmo que a maioria) ou no <strong>3º quartil (P75)</strong> (paga mais para atrair os melhores talentos).</li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- Fase 4: Estrutura Salarial -->
+    <div class="row align-items-center mb-5 flex-row-reverse">
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1542626991-a2f572a6e5d9?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Gráfico de barras subindo."></div>
+        <div class="col-md-8"><h5>4. Estrutura Salarial (A Pista de Corrida da Carreira)</h5><p>É a fase final, onde se unem os dados internos (pontuação dos cargos) e externos (pesquisa salarial) para criar as <strong>faixas salariais (salary ranges)</strong>.</p>
+            <div class="alert alert-light">
+                <p>Cada faixa possui um <strong>ponto mínimo</strong>, um <strong>ponto médio (midpoint)</strong> e um <strong>ponto máximo</strong>. Isso permite que um colaborador progrida salarialmente dentro da mesma função, com base em sua performance e senioridade, antes de ser promovido para a próxima faixa.</p>
+                <strong>Observação Lúdica:</strong> <em>"Pense nas faixas como as marchas de um carro. Você pode acelerar muito na 1ª marcha (crescer dentro da faixa júnior), mas em algum momento, para ganhar mais velocidade, você precisa passar para a 2ª marcha (ser promovido para a faixa de pleno). Um bom sistema de faixas garante que a 'troca de marcha' seja clara e baseada em critérios objetivos."</em>
+            </div>
+        </div>
+    </div>
+  
+    <hr class="my-5">
+  
+    <h5 class="mt-4">Base Legal e Equiparação Salarial (Art. 461 da CLT)</h5>
+    <p>A legislação trabalhista é o alicerce de qualquer plano de remuneração. O <strong>Art. 461 da CLT</strong> é categórico e busca evitar a discriminação salarial. Para que um pedido de equiparação seja válido, o reclamante (quem pede) e o paradigma (o colega com quem se compara) devem atender a <strong>TODOS</strong> os seguintes requisitos simultaneamente:</p>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item"><strong>Identidade de Função:</strong> Exercem exatamente as mesmas atividades, com as mesmas responsabilidades.</li>
+          <li class="list-group-item"><strong>Mesmo Empregador:</strong> Trabalham para a mesma empresa (mesmo CNPJ ou grupo econômico).</li>
+          <li class="list-group-item"><strong>Mesma Localidade:</strong> Trabalham no mesmo município ou em municípios da mesma região metropolitana.</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item"><strong>Trabalho de Igual Valor:</strong> Realizam o trabalho com a mesma produtividade e perfeição técnica.</li>
+          <li class="list-group-item"><strong>Contemporaneidade:</strong> A diferença de tempo de serviço para o mesmo empregador não pode ser superior a 4 anos.</li>
+          <li class="list-group-item"><strong>Tempo na Função:</strong> A diferença de tempo na função específica não pode ser superior a 2 anos.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="alert alert-warning mt-3">
+      <strong>Ponto-chave:</strong> A existência de um <strong>Plano de Cargos e Salários homologado</strong> é a principal defesa da empresa contra processos de equiparação, pois ele prova que as diferenças salariais são baseadas em critérios objetivos de promoção e mérito, e não em discriminação.
+    </div>
+  
+  </div>
+  
+
+        <!-- Conteúdo 3: Recrutamento e Seleção (Versão Exponencialmente Ampliada) -->
+<div class="tab-pane fade p-4" id="rs-content" role="tabpanel">
+    <h4>A Ciência e a Arte de Atrair e Contratar Talentos (Talent Acquisition)</h4>
+    <p>
+        Recrutamento e Seleção (R&S) transcendeu a simples tarefa de "preencher vagas". Hoje, é uma função estratégica conhecida como <strong>Aquisição de Talentos (Talent Acquisition)</strong>, que envolve planejar, atrair, identificar, avaliar e contratar os profissionais que não apenas preenchem os requisitos técnicos, mas que também se alinham à cultura e impulsionam os objetivos de longo prazo da organização.
+    </p>
+
+    <h5 class="mt-4">O Funil de Recrutamento Moderno</h5>
+    <p>Assim como o marketing tem um funil de vendas, o R&S moderno opera com um funil de recrutamento, otimizando cada etapa para melhorar a experiência do candidato e a eficiência do processo.</p>
+
+    <div class="card exercise-card mb-4">
+        <div class="card-header fw-bold">
+            As 4 Etapas do Funil
+        </div>
+        <div class="card-body">
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th>Etapa</th>
+                        <th>Objetivo</th>
+                        <th>Principais Métricas (KPIs)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>1. Atração</strong></td>
+                        <td>Gerar conhecimento sobre a vaga e a empresa, atraindo o maior número possível de candidatos qualificados.</td>
+                        <td>Número de visualizações da vaga, número de candidaturas, fonte dos candidatos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>2. Conversão</strong></td>
+                        <td>Triar os candidatos inscritos, convertendo o grande volume inicial em uma lista menor de talentos com alto potencial.</td>
+                        <td>Taxa de conversão (candidatos que passam para a próxima fase), tempo de triagem.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>3. Avaliação</strong></td>
+                        <td>Avaliar profundamente as competências técnicas e comportamentais dos candidatos finalistas através de entrevistas e testes.</td>
+                        <td>Qualidade dos candidatos finalistas (feedback do gestor), tempo até a contratação.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>4. Contratação e Encantamento</strong></td>
+                        <td>Formalizar a proposta, negociar e garantir que o candidato escolhido aceite a oferta e tenha uma ótima experiência de onboarding.</td>
+                        <td>Taxa de aceitação de propostas, satisfação do novo contratado (pesquisa de onboarding).</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <hr class="my-5">
+
+    <h4>Estratégias Avançadas de Recrutamento</h4>
+    <p>Para vencer a "guerra por talentos", as empresas precisam combinar diferentes estratégias de atração.</p>
+
+    <!-- Estratégia 1: Inbound Recruiting -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Pessoa trabalhando em um laptop com café e um blog aberto.">
+        </div>
+        <div class="col-md-8">
+            <h5>1. Inbound Recruiting (Marketing de Atração de Talentos)</h5>
+            <p>Em vez de "caçar" candidatos, você os atrai. A empresa cria conteúdo de valor que posiciona a organização como um ótimo lugar para se trabalhar.</p>
+            <ul>
+                <li><strong>Como funciona:</strong> Criação de um blog de carreiras, artigos sobre a cultura da empresa, vídeos com depoimentos de funcionários, guias de carreira, presença forte em redes sociais como o LinkedIn.</li>
+                <li><strong>Objetivo:</strong> Construir um pipeline de talentos que já admiram a empresa antes mesmo de uma vaga existir.</li>
+            </ul>
+            <div class="alert alert-light mt-2"><strong>Observação Lúdica:</strong> <em>"O Inbound Recruiting é a 'Netflix' do RH. Em vez de empurrar um trailer para o espectador, você cria uma série tão boa (a cultura da sua empresa) que as pessoas fazem maratona e indicam para os amigos. O candidato não 'cai' na sua vaga, ele a escolhe."</em></div>
+        </div>
+    </div>
+
+    <!-- Estratégia 2: Sourcing Ativo -->
+    <div class="row align-items-center mb-5 flex-row-reverse">
+        <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Pessoa de terno apontando para um gráfico em uma tela.">
+        </div>
+        <div class="col-md-8">
+            <h5>2. Sourcing Ativo (Headhunting 2.0)</h5>
+            <p>É a busca proativa por candidatos, especialmente os passivos (aqueles que não estão procurando ativamente por um emprego, mas estão abertos a boas oportunidades).</p>
+            <ul>
+                <li><strong>Como funciona:</strong> Uso de técnicas de <strong>busca booleana</strong> no LinkedIn Recruiter para encontrar perfis exatos (ex: `"Desenvolvedor Java" AND "Spring Boot" AND ("Santander" OR "Itaú") NOT "Estágio"`). Criação de "mapas de talentos" para mapear onde os melhores profissionais estão.</li>
+                <li><strong>Objetivo:</strong> Acessar os 70% do mercado de talentos que não estão nos portais de vagas.</li>
+            </ul>
+            <div class="alert alert-light mt-2"><strong>Observação Lúdica:</strong> <em>"O Sourcing é o trabalho de 'detetive' do RH. Você não espera a testemunha vir até você; você investiga, segue as pistas (perfis, conexões, projetos) e aborda o 'suspeito' (o talento ideal) com uma proposta irrecusável. É uma arte de timing e personalização."</em></div>
+        </div>
+    </div>
+    
+    <!-- Estratégia 3: Tecnologia no R&S -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1674027444485-a940e4d12a5d?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Robô humanoide interagindo com gráficos digitais.">
+        </div>
+        <div class="col-md-8">
+            <h5>3. Tecnologia no R&S (ATS e Inteligência Artificial)</h5>
+            <p>O uso de tecnologia para otimizar e escalar o processo seletivo.</p>
+            <ul>
+                <li><strong>ATS (Applicant Tracking System):</strong> Softwares que gerenciam todo o funil de recrutamento. Eles centralizam os currículos, agendam entrevistas e, o mais importante, escaneiam os CVs em busca de palavras-chave, ranqueando os candidatos.</li>
+                <li><strong>Inteligência Artificial (IA):</strong> A IA está sendo usada para analisar o tom de voz em entrevistas em vídeo, sugerir candidatos com base no perfil dos melhores funcionários da empresa e até mesmo para criar descrições de vaga mais inclusivas.</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr class="my-5">
+
+    <h4>Antes e Depois: A Comunicação que Atrai</h4>
+    <p>A forma como você descreve uma vaga ou conduz uma entrevista pode mudar completamente o perfil dos candidatos que você atrai.</p>
+    
+    <div class="card mt-3">
+        <div class="card-body">
+            <h6 class="text-danger">❌ Descrição de Vaga Ruim:</h6>
+            <blockquote>
+                <strong>Vaga: Analista de Marketing</strong><br>
+                Empresa líder de mercado busca profissional proativo e resiliente para trabalhar em um ambiente dinâmico e de alta pressão. Necessário bom relacionamento interpessoal e foco em resultados.
+            </blockquote>
+            <p><small><strong>Análise do Erro:</strong> Cheia de clichês corporativos ("dinâmico", "proativo") que não dizem nada. "Alta pressão" pode assustar bons candidatos. Não descreve os desafios reais da vaga.</small></p>
+            <hr>
+            <h6 class="text-success">✔️ Descrição de Vaga Ideal:</h6>
+            <blockquote>
+                <strong>Especialista em Marketing de Performance | [Nome da Empresa]</strong><br>
+                Estamos buscando um(a) especialista em mídia paga para gerenciar um orçamento de R$ 2 milhões/ano em campanhas de Google Ads e Meta Ads. Seu principal desafio será otimizar o Custo de Aquisição de Clientes (CAC) em 15% nos próximos 6 meses. Você terá autonomia para testar novas estratégias e trabalhará diretamente com nosso time de dados para analisar os resultados.
+            </blockquote>
+            <p><small><strong>Por que funciona:</strong> É específico, transparente e focado no desafio. Menciona o tamanho da responsabilidade (orçamento), a meta clara (reduzir o CAC) e a cultura (autonomia, dados). Atrai quem realmente quer aquele desafio.</small></p>
+        </div>
+    </div>
+
+    <hr class="my-5">
+
+    <h5 class="mt-4">Base Legal e Ética Aprofundada</h5>
+    <p>O processo seletivo é um campo minado de riscos legais e éticos. Conhecer a legislação é fundamental.</p>
+    <div class="row">
+        <div class="col-lg-6 mb-3">
+            <div class="card h-100">
+                <div class="card-header fw-bold">Lei nº 9.029/95 - Práticas Discriminatórias</div>
+                <div class="card-body">É expressamente proibido adotar qualquer prática discriminatória e limitativa para efeito de acesso à relação de trabalho. Isso inclui exigências baseadas em sexo, origem, raça, cor, estado civil, situação familiar, deficiência, ou idade.
+                <br><strong>Exemplo prático:</strong> Pedir "teste de gravidez" ou "certidão de antecedentes criminais" (salvo exceções legais) é ilegal e pode gerar multas e processos por danos morais.
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mb-3">
+            <div class="card h-100">
+                <div class="card-header fw-bold">LGPD (Lei Geral de Proteção de Dados)</div>
+                <div class="card-body">A empresa deve ter uma base legal para tratar os dados dos candidatos (geralmente o consentimento). É preciso informar a finalidade do uso dos dados e garantir o direito do candidato de acessar, corrigir ou apagar suas informações do banco de talentos.
+                <br><strong>Exemplo prático:</strong> Uma página de "Trabalhe Conosco" deve ter um link para a Política de Privacidade de Candidatos e um checkbox de consentimento.
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="card h-100">
+                <div class="card-header fw-bold">Leis de Cotas</div>
+                <div class="card-body">
+                    <ul class="mb-0">
+                        <li><strong>Cota para PCD (Pessoas com Deficiência) - Lei nº 8.213/91:</strong> Empresas com 100 ou mais funcionários são obrigadas a preencher de 2% a 5% de seus cargos com beneficiários reabilitados ou pessoas com deficiência.</li>
+                        <li><strong>Cota de Aprendizagem - Lei nº 10.097/2000:</strong> Empresas de médio e grande porte devem contratar jovens aprendizes (14 a 24 anos) em um percentual que varia de 5% a 15% do total de empregados cujas funções demandem formação profissional.</li>
+                    </ul>
+                    <p class="mt-2 mb-0"><strong>Implicação para o R&S:</strong> O processo seletivo deve ser inclusivo e adaptado para cumprir essas cotas, o que inclui a criação de vagas afirmativas e a garantia de acessibilidade em todas as etapas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <!-- Conteúdo 4: Avaliação de Desempenho (Versão Exponencialmente Ampliada) -->
+<div class="tab-pane fade p-4" id="desempenho-content" role="tabpanel">
+    <h4>Desvendando a Avaliação de Desempenho</h4>
+    <p>
+      A Avaliação de Desempenho evoluiu de um temido evento anual para uma <strong>ferramenta estratégica de desenvolvimento contínuo</strong>. Seu propósito moderno não é apenas "julgar" o passado, mas sim iluminar o caminho para o futuro, alinhando as aspirações individuais aos objetivos da organização. Uma avaliação eficaz é um diálogo, não um monólogo, e serve como o principal insumo para a criação de um <strong>Plano de Desenvolvimento Individual (PDI)</strong> robusto.
+    </p>
+  
+    <h5 class="mt-4">A Mentalidade do Gestor: De Juiz a Treinador</h5>
+    <p>O sucesso de qualquer modelo de avaliação depende menos do formulário e mais da postura do líder. A transição de uma mentalidade de "juiz" para uma de "treinador" (coach) é fundamental.</p>
+  
+    <div class="card exercise-card mb-4">
+      <div class="card-header fw-bold">
+        Checklist do Gestor-Coach
+      </div>
+      <div class="card-body">
+        <table class="table table-sm">
+          <thead>
+            <tr>
+              <th>Etapa da Conversa</th>
+              <th>Ações-Chave</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Preparação</strong></td>
+              <td>Colete dados e fatos, não opiniões. Reúna feedbacks 360°, resultados de projetos, e exemplos específicos de comportamento. Evite o "eu acho que...".</td>
+            </tr>
+            <tr>
+              <td><strong>Abertura</strong></td>
+              <td>Crie um ambiente seguro. Comece com o propósito da conversa: "Nosso objetivo aqui é falar sobre seu desenvolvimento e como posso te apoiar".</td>
+            </tr>
+            <tr>
+              <td><strong>Comunicação (Feedback)</strong></td>
+              <td>Use a técnica <strong>Situação-Comportamento-Impacto (SCI)</strong>. Ex: "Na reunião de ontem (Situação), quando você interrompeu o cliente (Comportamento), o impacto foi que ele pareceu desconfortável e perdemos a oportunidade de ouvir uma objeção importante (Impacto)".</td>
+            </tr>
+            <tr>
+              <td><strong>Escuta Ativa</strong></td>
+              <td>Faça perguntas abertas e ouça mais do que fala. "Qual é a sua percepção sobre esse projeto?", "Onde você sentiu mais dificuldade?", "Como eu posso te ajudar?".</td>
+            </tr>
+             <tr>
+              <td><strong>Foco no Futuro (Feedforward)</strong></td>
+              <td>Após analisar o passado, mude o foco. Em vez de "não faça mais isso", pergunte: "Para a próxima vez, que outra abordagem você poderia tentar?". Crie um PDI com ações claras e mensuráveis.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  
+    <hr class="my-5">
+  
+    <h4>Principais Modelos de Avaliação de Desempenho</h4>
+    <p>Não existe um modelo "perfeito", mas sim o mais adequado à cultura e ao momento da sua empresa.</p>
+  
+    <!-- Modelo 1: Avaliação 360 Graus -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Grupo diversificado de pessoas conversando em um círculo.">
+      </div>
+      <div class="col-md-8">
+        <h5>1. Avaliação 360 Graus (Visão Holística)</h5>
+        <p>Um método que coleta feedback de todas as direções: líder, pares, subordinados, clientes e a autoavaliação do próprio colaborador.</p>
+        <ul>
+          <li><strong>Objetivo:</strong> Reduzir o viés de uma única fonte e fornecer uma perspectiva completa sobre as competências comportamentais do avaliado.</li>
+          <li><strong>Ideal para:</strong> Empresas com alta maturidade cultural, para desenvolvimento de lideranças e para mapeamento de competências de equipe.</li>
+          <li><strong>Como funciona:</strong> Os participantes respondem a um questionário (geralmente anônimo) sobre as competências do avaliado. Os resultados são consolidados em um relatório que compara a autoavaliação com a percepção dos outros.</li>
+        </ul>
+      </div>
+      <div class="col-12 mt-3">
+          <div class="alert alert-light">
+            <strong>Observação Lúdica:</strong> <em>"A Avaliação 360° é o 'Waze' do desenvolvimento profissional; ela usa múltiplas fontes para criar a rota mais precisa. O perigo? Se a cultura for tóxica, pode virar uma 'reunião de condomínio' anônima. A chave para o sucesso é garantir o anonimato, focar em comportamentos observáveis (o que a pessoa FEZ) e não em julgamentos de caráter (o que a pessoa É)."</em>
+          </div>
+      </div>
+    </div>
+  
+    <!-- Modelo 2: OKR (Objectives and Key Results) -->
+    <div class="row align-items-center mb-5 flex-row-reverse">
+      <div class="col-md-4">
+          <img src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Gráfico de metas com um alvo e flechas.">
+      </div>
+      <div class="col-md-8">
+          <h5>2. OKR (Objetivos e Resultados-Chave)</h5>
+          <p>Um sistema de metas ágil e transparente, popularizado pelo Google, que conecta o trabalho individual aos objetivos estratégicos da empresa.</p>
+          <ul>
+              <li><strong>Objetivo:</strong> Promover o alinhamento, o foco em resultados e uma cultura de ambição (metas "stretch").</li>
+              <li><strong>Ideal para:</strong> Empresas de rápido crescimento, equipes de produto e tecnologia, e culturas que valorizam a autonomia.</li>
+              <li><strong>Como funciona:</strong> Define-se um <strong>Objetivo</strong> (qualitativo e inspirador) e de 2 a 5 <strong>Resultados-Chave</strong> (quantitativos e mensuráveis) para alcançá-lo. Ex: O: "Lançar a campanha de marketing mais memorável do ano". KR: "Atingir 1 milhão de visualizações no vídeo de lançamento".</li>
+          </ul>
+      </div>
+      <div class="col-12 mt-3">
+          <div class="alert alert-light">
+            <strong>Observação Lúdica:</strong> <em>"OKRs são a 'missão de videogame' do mundo corporativo. O Objetivo é a fase ('Conquistar o Castelo da Produtividade') e os KRs são as quests ('Coletar 100 moedas de eficiência', 'Derrotar o bug do relatório'). Atingir 70% de um KR ambicioso é considerado um sucesso. Se você atinge 100% sempre, suas metas não são ousadas o suficiente."</em>
+          </div>
+      </div>
+    </div>
+  
+    <!-- Modelo 3: Nine Box (Matriz 9-Box) -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Pessoas movendo peças em um grande tabuleiro de xadrez.">
+      </div>
+      <div class="col-md-8">
+        <h5>3. Nine Box (Mapeamento de Talentos)</h5>
+        <p>Uma ferramenta visual de gestão de talentos que cruza o Desempenho atual com o Potencial futuro do colaborador, ajudando a planejar sucessões.</p>
+        <ul>
+          <li><strong>Objetivo:</strong> Identificar talentos-chave, planejar o desenvolvimento de futuros líderes e tomar decisões de movimentação de pessoal.</li>
+          <li><strong>Ideal para:</strong> Reuniões de calibragem entre gestores, planejamento de sucessão e discussões estratégicas de RH.</li>
+          <li><strong>Como funciona:</strong> Em uma matriz 3x3, os gestores posicionam seus liderados nos quadrantes. Eixo X: Desempenho (Baixo, Médio, Alto). Eixo Y: Potencial (Baixo, Médio, Alto). Isso gera perfis como "Estrela" (Alto/Alto) ou "Enigma" (Baixo Desempenho/Alto Potencial).</li>
+        </ul>
+      </div>
+      <div class="col-12 mt-3">
+          <div class="alert alert-light">
+            <strong>Observação Lúdica:</strong> <em>"A Nine Box é o 'álbum de figurinhas' de talentos da empresa. As 'estrelas' são as figurinhas brilhantes que todos querem. O desafio são os 'enigmas': um talento com alto potencial mas baixo desempenho. Será que ele está na posição errada? Desmotivado? A matriz não dá respostas prontas, mas força os líderes a terem conversas honestas e estratégicas sobre suas equipes."</em>
+          </div>
+      </div>
+    </div>
+    
+    <!-- Modelo 4: Avaliação por Competências (CHA) -->
+    <div class="row align-items-center mb-5 flex-row-reverse">
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1769&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Mãos montando um quebra-cabeça com peças de engrenagens."></div>
+        <div class="col-md-8"><h5>4. Avaliação por Competências (CHA)</h5><p>Este modelo avalia o colaborador com base em um conjunto pré-definido de competências, dividido em três pilares: Conhecimento, Habilidade e Atitude.</p><ul><li><strong>Objetivo:</strong> Diagnosticar gaps de competência, direcionar treinamentos e garantir que a equipe possua as habilidades necessárias para a estratégia da empresa.</li><li><strong>Ideal para:</strong> Empresas que possuem um dicionário de competências bem definido e querem criar uma cultura forte e alinhada.</li><li><strong>Como funciona:</strong> Para cada competência (ex: "Negociação"), o gestor avalia o nível do colaborador em uma escala (ex: de 1 a 5), com base em comportamentos observáveis.</li></ul></div>
+        <div class="col-12 mt-3"><div class="alert alert-light"><strong>Observação Lúdica:</strong> <em>"Pense no CHA como a 'receita do bolo' de um profissional. O <strong>Conhecimento</strong> é saber a receita. A <strong>Habilidade</strong> é saber cozinhar. Mas a <strong>Atitude</strong> é QUERER fazer o bolo, ser proativo na cozinha e não ter medo de testar novos ingredientes. Muitas empresas contratam pelos dois primeiros e demitem pelo último. Uma boa avaliação por competências mede os três."</em></div></div>
+    </div>
+  
+    <!-- Modelo 5: Feedback Contínuo e Feedforward -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?q=80&w=1771&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Duas pessoas conversando em um ambiente de trabalho moderno."></div>
+        <div class="col-md-8"><h5>5. Feedback Contínuo & Feedforward</h5><p>Uma abordagem cultural que substitui a avaliação anual por conversas de desenvolvimento frequentes, informais e focadas no futuro.</p><ul><li><strong>Objetivo:</strong> Acelerar o desenvolvimento, fortalecer a relação de confiança entre líder e liderado, e corrigir o rumo rapidamente.</li><li><strong>Ideal para:</strong> Culturas ágeis, startups e equipes que trabalham em projetos dinâmicos.</li><li><strong>Como funciona:</strong> O conceito de <strong>Feedforward</strong>, de Marshall Goldsmith, propõe focar em sugestões para o futuro, em vez de críticas sobre o passado. Em vez de "Você errou nisso", a abordagem é "Para o próximo projeto, que tal se tentássemos...".</li></ul></div>
+        <div class="col-12 mt-3"><div class="alert alert-light"><strong>Observação Lúdica:</strong> <em>"A avaliação anual é como ir ao médico uma vez por ano para um check-up. O feedback contínuo é como usar um smartwatch que monitora sua saúde em tempo real. Qual dos dois te ajuda a melhorar seus hábitos mais rápido? O feedforward é o 'treinador' que, em vez de te criticar pelo gol perdido, já te dá a dica para o próximo chute."</em></div></div>
+    </div>
+  
+    <hr class="my-5">
+  
+    <h5 class="mt-4">Base Legal e Ética na Avaliação</h5>
+    <p>A condução de uma Avaliação de Desempenho deve ser um processo justo, transparente e bem documentado para proteger tanto o colaborador quanto a empresa.</p>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card border-success h-100">
+          <div class="card-header bg-success text-white fw-bold">Práticas Recomendadas</div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li>✔️ Ter critérios claros, objetivos e conhecidos por todos.</li>
+              <li>✔️ Treinar os gestores para darem feedbacks construtivos.</li>
+              <li>✔️ Documentar todas as conversas e planos de ação (PDI).</li>
+              <li>✔️ Garantir que a avaliação seja usada para desenvolvimento, não para perseguição.</li>
+              <li>✔️ Criar um canal de apelação ou revisão para o colaborador.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card border-danger h-100">
+          <div class="card-header bg-danger text-white fw-bold">Erros a Evitar</div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li>❌ Usar critérios subjetivos como "lealdade" ou "bom relacionamento".</li>
+              <li>❌ Efeito Halo/Horn: Deixar um único evento (bom ou ruim) contaminar toda a avaliação.</li>
+              <li>❌ Tendência Central: Avaliar todos como "na média" para evitar conversas difíceis.</li>
+              <li>❌ Comparar um colaborador com outro em vez de com as metas e competências do cargo.</li>
+              <li>❌ Realizar a avaliação sem vinculá-la a um plano de desenvolvimento concreto.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  
+
+        <!-- Conteúdo 5: Dinâmicas de Grupo (Versão Exponencialmente Ampliada) -->
+<div class="tab-pane fade p-4" id="dinamicas-content" role="tabpanel">
+    <h4>Um Mergulho Profundo nas Dinâmicas de Grupo</h4>
+    <p>
+      As dinâmicas de grupo são muito mais do que simples "jogos de empresa". Elas funcionam como um <strong>laboratório comportamental</strong>, onde é possível observar, em tempo real, as competências (soft skills) que um currículo ou uma entrevista tradicional não conseguem revelar. O objetivo não é ver a tarefa ser concluída, mas sim <strong>COMO</strong> os participantes se comportam, interagem e reagem para alcançar um objetivo.
+    </p>
+  
+    <h5 class="mt-4">O Papel Crucial do Observador: O que Avaliar?</h5>
+    <p>O sucesso de uma dinâmica depende da habilidade do facilitador em observar e registrar os comportamentos de forma neutra. Ele deve ser um "caçador de talentos" silencioso, atento aos detalhes.</p>
+  
+    <div class="card exercise-card mb-4">
+      <div class="card-header fw-bold">
+        Checklist do Observador
+      </div>
+      <div class="card-body">
+        <table class="table table-sm">
+          <thead>
+            <tr>
+              <th>Competência</th>
+              <th>Comportamentos a Observar (Pistas)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Liderança</strong></td>
+              <td>Quem organiza o grupo naturalmente? Quem delega tarefas? Quem motiva os outros ou assume a responsabilidade em momentos de crise?</td>
+            </tr>
+            <tr>
+              <td><strong>Comunicação</strong></td>
+              <td>A pessoa expõe suas ideias com clareza? Ela escuta ativamente os outros ou interrompe constantemente? Sua linguagem corporal é aberta e confiante?</td>
+            </tr>
+            <tr>
+              <td><strong>Trabalho em Equipe</strong></td>
+              <td>Ela colabora e constrói sobre as ideias dos outros? Oferece ajuda? Reconhece o mérito alheio ou tenta levar o crédito sozinho?</td>
+            </tr>
+            <tr>
+              <td><strong>Resolução de Problemas</strong></td>
+              <td>Quando surge um obstáculo, a pessoa foca no problema ou na solução? Ela propõe alternativas? É criativa e pensa fora da caixa?</td>
+            </tr>
+             <tr>
+              <td><strong>Negociação</strong></td>
+              <td>Como ela defende seu ponto de vista? Sabe ceder quando necessário para o bem do grupo? Consegue construir um consenso?</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  
+    <hr class="my-5">
+  
+    <h4>10 Exemplos Clássicos e Modernos de Dinâmicas</h4>
+    <p>Abaixo, detalhamos algumas das dinâmicas mais eficazes do mercado, com instruções e dicas de observação.</p>
+  
+    <!-- 1. Dinâmica do Balão -->
+    <div class="row align-items-center mb-5"><div class="col-md-4"><img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Pessoas em uma reunião de negócios discutindo."></div><div class="col-md-8"><h5>1. Dinâmica do Balão em Queda (Tomada de Decisão Sob Pressão)</h5><p>Um clássico para avaliar argumentação, poder de persuasão e inteligência emocional.</p><ul><li><strong>Objetivo:</strong> Avaliar negociação, tomada de decisão em grupo e defesa de ideias.</li><li><strong>Materiais:</strong> Papéis com a descrição de diferentes personagens.</li><li><strong>Instruções:</strong><ol><li>O grupo está em um balão que está caindo e uma pessoa deve ser sacrificada.</li><li>Cada participante defende seu personagem.</li><li>O grupo tem 10 minutos para decidir, em consenso, quem será eliminado.</li></ol></li></ul></div><div class="col-12 mt-3"><div class="alert alert-light"><strong>Observação Lúdica:</strong> <em>"Não se apegue a quem o grupo 'salva'. O ouro está no processo. Observe quem usa a lógica, quem apela para a emoção, e quem atua como mediador. Note quem se cala sob pressão e quem cresce no debate."</em></div></div></div>
+  
+    <!-- 2. Desafio do Marshmallow -->
+    <div class="row align-items-center mb-5 flex-row-reverse"><div class="col-md-4"><img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Equipe colaborando em um projeto com post-its e gráficos."></div><div class="col-md-8"><h5>2. O Desafio do Marshmallow (Planejamento e Inovação)</h5><p>Popularizada pelo TED Talk de Tom Wujec, esta dinâmica é fantástica para avaliar o ciclo de prototipagem, colaboração e gestão do tempo.</p><ul><li><strong>Objetivo:</strong> Avaliar planejamento, criatividade, trabalho em equipe e adaptação.</li><li><strong>Materiais (por grupo):</strong> 20 varetas de espaguete, 1 metro de fita adesiva, 1 metro de barbante e 1 marshmallow.</li><li><strong>Instruções:</strong><ol><li>Em 18 minutos, os grupos devem construir a torre mais alta possível.</li><li>A torre deve se sustentar sozinha e o marshmallow deve estar no topo.</li></ol></li></ul></div><div class="col-12 mt-3"><div class="alert alert-light"><strong>Observação Lúdica:</strong> <em>"Observe os que passam 15 minutos planejando versus os que constroem protótipos desde o início. Isso revela quem tem uma mentalidade ágil (testar, errar, corrigir). Observe quem entra em pânico quando a torre quebra e quem lidera a reconstrução rápida."</em></div></div></div>
+  
+    <!-- 3. Sobrevivência na Lua -->
+    <div class="row align-items-center mb-5"><div class="col-md-4"><img src="https://images.unsplash.com/photo-1614726365949-9452c84a024f?q=80&w=1887&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Imagem do planeta Terra visto do espaço, com a Lua em destaque."></div><div class="col-md-8"><h5>3. Sobrevivência na Lua (Lógica e Tomada de Decisão Baseada em Dados)</h5><p>Desenvolvida pela NASA, esta dinâmica avalia a capacidade de resolver problemas de forma lógica e colaborativa.</p><ul><li><strong>Objetivo:</strong> Avaliar raciocínio lógico, trabalho em equipe e habilidade de influenciar com base em dados.</li><li><strong>Materiais:</strong> Uma lista de 15 itens que restaram de uma nave que caiu na Lua e o gabarito oficial da NASA.</li><li><strong>Instruções:</strong><ol><li>Individualmente, cada um ordena os 15 itens por ordem de importância.</li><li>Em grupo, o time cria um ranking único em consenso.</li><li>O ranking do grupo é comparado com o gabarito.</li></ol></li></ul></div><div class="col-12 mt-3"><div class="alert alert-light"><strong>Observação Lúdica:</strong> <em>"O resultado quase sempre mostra que a decisão do grupo é melhor que a média das decisões individuais. O ponto chave é observar QUEM conseguiu convencer os outros a mudar de ideia. Foi a pessoa que gritou mais alto ou aquela que usou a lógica?"</em></div></div></div>
+    
+    <!-- 4. O Quebra-Cabeça em Branco -->
+    <div class="row align-items-center mb-5 flex-row-reverse"><div class="col-md-4"><img src="https://images.unsplash.com/photo-1598257006624-97c12519392e?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Peças de um quebra-cabeça branco se conectando."></div><div class="col-md-8"><h5>4. O Quebra-Cabeça em Branco (Comunicação e Visão Sistêmica)</h5><p>Uma poderosa dinâmica para avaliar como a informação flui em uma equipe e a importância de cada papel.</p><ul><li><strong>Objetivo:</strong> Avaliar comunicação, colaboração e a capacidade de entender o "todo" a partir de partes.</li><li><strong>Materiais:</strong> Um quebra-cabeça simples e cópias da imagem final.</li><li><strong>Instruções:</strong><ol><li>Divida o grupo: um tem a imagem completa, mas só pode descrever; outros só podem ver pequenas partes da imagem; o resto só tem as peças.</li><li>O grupo precisa montar o quebra-cabeça com base na comunicação entre as partes.</li></ol></li></ul></div><div class="col-12 mt-3"><div class="alert alert-light"><strong>Observação Lúdica:</strong> <em>"É o caos organizado. Observe quem consegue traduzir a visão estratégica (o que tem a imagem completa) em instruções claras. Veja quem, tendo apenas as peças, consegue fazer as perguntas certas para entender onde se encaixa. A dinâmica revela quem são os 'conectores' naturais da equipe."</em></div></div></div>
+  
+    <!-- 5. Campo Minado -->
+    <div class="row align-items-center mb-5"><div class="col-md-4"><img src="https://images.unsplash.com/photo-1560421683-6223b8a1a055?q=80&w=1964&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Pessoa vendada sendo guiada por outra."></div><div class="col-md-8"><h5>5. O Campo Minado (Confiança e Comunicação Precisa)</h5><p>Excelente para duplas, avalia a clareza na comunicação e o nível de confiança entre os membros da equipe.</p><ul><li><strong>Objetivo:</strong> Avaliar confiança mútua e a precisão na comunicação verbal.</li><li><strong>Materiais:</strong> Vendas, e "minas" (copos de plástico, bolas de papel, etc.).</li><li><strong>Instruções:</strong><ol><li>Espalhe as "minas" pelo chão.</li><li>Um participante é vendado e deve atravessar o campo.</li><li>Seu parceiro, do outro lado, só pode guiá-lo com instruções verbais.</li></ol></li></ul></div><div class="col-12 mt-3"><div class="alert alert-light"><strong>Observação Lúdica:</strong> <em>"Escute atentamente as instruções. 'Vá para a esquerda' é vago. 'Dê dois passos pequenos para a sua esquerda' é eficaz. Essa dinâmica mostra quem consegue dar instruções claras e quem consegue confiar e executar sem ver o cenário completo. É uma metáfora perfeita para a relação entre gestores e equipes."</em></div></div></div>
+  
+    <!-- 6. Venda-me Este Objeto -->
+    <div class="row align-items-center mb-5 flex-row-reverse"><div class="col-md-4"><img src="https://images.unsplash.com/photo-1586528116311-0692421b3a32?q=80&w=1887&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Um clipe de papel gigante."></div><div class="col-md-8"><h5>6. Venda-me Este Objeto (Criatividade e Persuasão)</h5><p>Inspirada em uma cena clássica do filme "O Lobo de Wall Street", esta dinâmica individual ou em grupo avalia a capacidade de criar valor.</p><ul><li><strong>Objetivo:</strong> Avaliar criatividade, pensamento rápido e técnicas de persuasão.</li><li><strong>Materiais:</strong> Objetos mundanos (um clipe, uma caneta sem tinta, um tijolo).</li><li><strong>Instruções:</strong><ol><li>Dê um objeto a cada participante ou grupo.</li><li>Eles têm 5 minutos para preparar um "pitch" de vendas.</li><li>Cada um tem 2 minutos para apresentar e tentar "vender" o objeto para os avaliadores.</li></ol></li></ul></div><div class="col-12 mt-3"><div class="alert alert-light"><strong>Observação Lúdica:</strong> <em>"Os melhores vendedores não focam nas características do objeto, mas nos benefícios e na necessidade que ele cria. Em vez de 'este é um clipe de metal', eles dizem 'esta é uma ferramenta para manter seus contratos mais importantes organizados, evitando um erro que pode custar milhões'. Avalie quem consegue mudar a perspectiva e contar uma história."</em></div></div></div>
+  
+    <!-- 7. A Teia de Aranha -->
+    <div class="row align-items-center mb-5"><div class="col-md-4"><img src="https://images.unsplash.com/photo-1629814275999-95123f645b29?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Uma teia de aranha com gotas de orvalho."></div><div class="col-md-8"><h5>7. A Teia de Aranha (Planejamento Estratégico)</h5><p>Uma dinâmica física que exige muito planejamento e colaboração para ser executada com sucesso.</p><ul><li><strong>Objetivo:</strong> Avaliar planejamento estratégico, resolução de problemas e colaboração física.</li><li><strong>Materiais:</strong> Barbante ou corda, e dois postes ou árvores.</li><li><strong>Instruções:</strong><ol><li>Crie uma "teia" com o barbante, com vãos de diferentes tamanhos.</li><li>O grupo inteiro deve passar para o outro lado da teia, um por um.</li><li>Cada vão da teia só pode ser usado uma vez e ninguém pode tocar no barbante.</li></ol></li></ul></div><div class="col-12 mt-3"><div class="alert alert-light"><strong>Observação Lúdica:</strong> <em>"Observe o planejamento. O grupo pensa em qual ordem as pessoas devem passar? Eles usam os vãos maiores para as pessoas maiores primeiro? Quem se voluntaria para ir por último, na posição mais difícil? A dinâmica mostra quem tem visão de longo prazo e quem só pensa na tarefa imediata."</em></div></div></div>
+  
+    <!-- 8. Notícia Urgente -->
+    <div class="row align-items-center mb-5 flex-row-reverse"><div class="col-md-4"><img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1769&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Jornais antigos empilhados."></div><div class="col-md-8"><h5>8. Notícia Urgente (Criatividade e Síntese)</h5><p>Uma dinâmica leve e criativa, ótima para quebrar o gelo e avaliar a capacidade de colaboração criativa.</p><ul><li><strong>Objetivo:</strong> Avaliar criatividade, trabalho em equipe e capacidade de síntese.</li><li><strong>Materiais:</strong> Papel, canetas e manchetes absurdas pré-escritas (ex: "Pinguins são vistos em um oásis no Saara").</li><li><strong>Instruções:</strong><ol><li>Dê uma manchete para cada grupo.</li><li>Eles têm 15 minutos para escrever uma pequena matéria jornalística (o quê, quem, quando, onde, por quê) que explique a manchete.</li><li>Cada grupo lê sua notícia para os demais.</li></ol></li></ul></div><div class="col-12 mt-3"><div class="alert alert-light"><strong>Observação Lúdica:</strong> <em>"Avalie o quão coesa e criativa é a história. O grupo conseguiu conectar as ideias de forma lógica, mesmo partindo de uma premissa absurda? Observe quem assume o papel de 'redator', quem contribui com ideias criativas e quem organiza a estrutura do texto. É um ótimo teste para equipes de marketing e criação."</em></div></div></div>
+  
+    <!-- 9. A Ponte -->
+    <div class="row align-items-center mb-5"><div class="col-md-4"><img src="https://images.unsplash.com/photo-1588243642643-908d4a733732?q=80&w=1887&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Uma ponte de madeira em uma floresta."></div><div class="col-md-8"><h5>9. Construindo a Ponte (Gestão de Recursos)</h5><p>Focada em engenharia e colaboração, esta dinâmica testa a habilidade do grupo de trabalhar com recursos limitados.</p><ul><li><strong>Objetivo:</strong> Avaliar gestão de recursos, planejamento e engenharia de soluções.</li><li><strong>Materiais:</strong> Canudos, clipes de papel, fita adesiva e um objeto de peso definido (ex: um celular).</li><li><strong>Instruções:</strong><ol><li>Os grupos devem construir uma ponte entre duas mesas.</li><li>A ponte deve ser autossustentável e capaz de suportar o peso do objeto por 10 segundos.</li><li>Eles têm um orçamento fictício para "comprar" os materiais, que têm preços diferentes.</li></ol></li></ul></div><div class="col-12 mt-3"><div class="alert alert-light"><strong>Observação Lúdica:</strong> <em>"Veja como o grupo gerencia o 'orçamento'. Eles gastam tudo de uma vez ou planejam as compras? Quem assume o papel de 'engenheiro'? Quem é o 'gestor financeiro'? A dinâmica simula um projeto real, com restrições de orçamento e requisitos técnicos, revelando a capacidade de planejamento do grupo."</em></div></div></div>
+  
+    <!-- 10. A Máquina Humana -->
+    <div class="row align-items-center mb-5 flex-row-reverse"><div class="col-md-4"><img src="https://images.unsplash.com/photo-1554224155-8d04421a7a8a?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow" alt="Engrenagens de um relógio trabalhando juntas."></div><div class="col-md-8"><h5>10. A Máquina Humana (Sincronia e Visão de Processo)</h5><p>Uma atividade corporal que revela a capacidade do grupo de se sincronizar e entender como cada parte afeta o todo.</p><ul><li><strong>Objetivo:</strong> Avaliar sincronia, visão de processo e comunicação não-verbal.</li><li><strong>Materiais:</strong> Nenhum.</li><li><strong>Instruções:</strong><ol><li>O objetivo é criar uma "máquina" (ex: uma máquina de café, um relógio) usando apenas os corpos dos participantes.</li><li>Um participante começa com um som e um movimento repetitivo.</li><li>Um por um, os outros se juntam, conectando seu próprio som e movimento ao da pessoa anterior.</li></ol></li></ul></div><div class="col-12 mt-3"><div class="alert alert-light"><strong>Observação Lúdica:</strong> <em>"É fascinante ver como a máquina evolui. Alguns grupos criam sistemas complexos e sincronizados, outros viram uma bagunça. Observe quem hesita em participar e quem mergulha de cabeça. A dinâmica expõe a capacidade do grupo de criar um sistema funcional a partir do zero e a importância da contribuição individual para o resultado final."</em></div></div></div>
+  
+  
+    <hr class="my-5">
+  
+    <h5 class="mt-4">Base Legal e Ética nas Dinâmicas</h5>
+    <p>A condução de dinâmicas exige um cuidado ético e legal rigoroso para não violar a dignidade dos participantes. O foco deve ser sempre profissional.</p>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card border-success h-100">
+          <div class="card-header bg-success text-white fw-bold">O que FAZER</div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li>✔️ Deixar os objetivos e as regras da atividade claros.</li>
+              <li>✔️ Garantir um ambiente seguro e respeitoso.</li>
+              <li>✔️ Focar em avaliar competências diretamente ligadas à vaga.</li>
+              <li>✔️ Dar um feedback geral ao grupo no final (sem expor ninguém).</li>
+              <li>✔️ Usar materiais simples e acessíveis a todos.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card border-danger h-100">
+          <div class="card-header bg-danger text-white fw-bold">O que NUNCA FAZER</div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li>❌ Criar situações vexatórias ou constrangedoras.</li>
+              <li>❌ Pedir para os participantes revelarem informações pessoais íntimas.</li>
+              <li>❌ Fazer "pegadinhas" ou dinâmicas sem um propósito claro.</li>
+              <li>❌ Tolerar qualquer tipo de preconceito ou desrespeito entre os participantes.</li>
+              <li>❌ Forçar o contato físico ou atividades que possam causar desconforto.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  
+
+        <!-- Conteúdo 6: Criando o Currículo Perfeito (Versão Exponencialmente Ampliada) -->
+<div class="tab-pane fade p-4" id="curriculo-content" role="tabpanel">
+    <h4>O Currículo como Ferramenta Estratégica de Marketing Pessoal</h4>
+    <p>
+        Pense no seu currículo não como um simples histórico de empregos, mas como a sua principal peça de marketing. Em um mercado competitivo, onde recrutadores e sistemas automatizados (ATS) analisam centenas de perfis, seu currículo tem poucos segundos para causar um impacto decisivo. O objetivo não é listar tudo o que você já fez, mas sim vender a solução que você representa para o problema que a empresa precisa resolver.
+    </p>
+
+    <h5 class="mt-4">Modelos de Currículo: Qual Usar em Cada Fase da Carreira?</h5>
+    <p>A escolha do formato do seu currículo é uma decisão estratégica. Não existe um modelo único que sirva para todos; a melhor escolha depende da sua experiência, do seu objetivo e do mercado para o qual você está se candidatando.</p>
+
+    <div class="accordion" id="accordionResumeModels">
+      <!-- Modelo Cronológico -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCrono">
+            <strong>1. Modelo Cronológico Reverso (O Padrão de Mercado)</strong>
+          </button>
+        </h2>
+        <div id="collapseCrono" class="accordion-collapse collapse show" data-bs-parent="#accordionResumeModels">
+          <div class="accordion-body">
+            É o formato mais tradicional e preferido pela maioria dos recrutadores. A experiência profissional é listada da mais recente para a mais antiga, mostrando uma clara progressão de carreira.<br><br>
+            <strong>Quando usar:</strong> Ideal para profissionais com uma trajetória de carreira sólida e linear, sem longos períodos de inatividade. Perfeito para quem busca uma posição na mesma área de atuação.
+          </div>
+        </div>
+      </div>
+      <!-- Modelo Funcional -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFunc">
+            <strong>2. Modelo Funcional (Foco em Competências)</strong>
+          </button>
+        </h2>
+        <div id="collapseFunc" class="accordion-collapse collapse" data-bs-parent="#accordionResumeModels">
+          <div class="accordion-body">
+            Este modelo destaca suas habilidades e competências no topo do currículo, agrupando experiências por áreas de habilidade em vez de por data. A seção de experiência profissional torna-se mais resumida.<br><br>
+            <strong>Quando usar:</strong> Excelente para quem está em <strong>transição de carreira</strong>, possui <strong>gaps (lacunas)</strong> no histórico profissional, ou para profissionais autônomos e freelancers que querem destacar projetos diversos.
+          </div>
+        </div>
+      </div>
+      <!-- Modelo Combinado -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCombo">
+            <strong>3. Modelo Combinado ou Misto (O Melhor de Dois Mundos)</strong>
+          </button>
+        </h2>
+        <div id="collapseCombo" class="accordion-collapse collapse" data-bs-parent="#accordionResumeModels">
+          <div class="accordion-body">
+            Como o nome sugere, ele combina elementos dos dois modelos anteriores. Começa com um resumo robusto de qualificações e competências (como o Funcional) e depois apresenta a experiência profissional em ordem cronológica reversa.<br><br>
+            <strong>Quando usar:</strong> É o modelo mais versátil e poderoso para a maioria dos profissionais experientes, pois permite destacar tanto as competências-chave quanto uma carreira sólida.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-5">
+
+    <h4>Antes e Depois: Otimizando Cada Seção do seu Currículo</h4>
+    <p>Vamos analisar exemplos práticos de como transformar cada parte de um currículo comum em um documento de alto impacto, que chama a atenção de recrutadores e sistemas de triagem.</p>
+    
+    <!-- 1. Dados Pessoais / Contato -->
+    <h5 class="mt-4">Parte 1: Informações de Contato</h5>
+    <div class="card">
+        <div class="card-body">
+            <h6 class="text-danger">❌ Exemplo Ruim:</h6>
+            <blockquote>
+                <strong>Nome:</strong> João da Silva<br>
+                <strong>Endereço:</strong> Rua das Flores, 123, Apto 45, Bairro dos Sonhos, Cidade Feliz - SP, CEP 12345-678<br>
+                <strong>Data de Nasc.:</strong> 10/05/1990<br>
+                <strong>E-mail:</strong> joaozinhogames90@hotmail.com<br>
+                <strong>Telefone:</strong> 11 9 1234 5678
+            </blockquote>
+            <p><small><strong>Análise do Erro:</strong> Contém informações desnecessárias e potencialmente discriminatórias (endereço completo, idade). O e-mail não é profissional. A formatação ocupa muito espaço.</small></p>
+            <hr>
+            <h6 class="text-success">✔️ Correção Ideal:</h6>
+            <blockquote class="text-center">
+                <h4 class="mb-0">João Silva</h4>
+                São Paulo, SP | (11) 91234-5678 | joao.silva@emailprofissional.com | linkedin.com/in/joaosilvaprofissional
+            </blockquote>
+            <p class="mt-3"><small><strong>Por que funciona:</strong> É limpo, profissional e otimizado. Inclui apenas o essencial (cidade é suficiente), um e-mail profissional e, crucialmente, o link para o perfil do LinkedIn, que funciona como uma extensão do seu currículo.</small></p>
+        </div>
+    </div>
+
+    <!-- 2. Resumo Profissional -->
+    <h5 class="mt-4">Parte 2: Resumo Profissional</h5>
+    <div class="card mt-3">
+        <div class="card-body">
+            <h6 class="text-danger">❌ Exemplo Ruim:</h6>
+            <blockquote>Profissional com experiência na área de vendas, buscando uma nova oportunidade no mercado para aplicar minhas habilidades e contribuir para o crescimento da empresa. Sou dedicado e bom com pessoas.</blockquote>
+            <p><small><strong>Análise do Erro:</strong> Genérico, passivo e cheio de clichês. Foca no que o candidato quer ("buscando oportunidade") e não no que ele oferece.</small></p>
+            <hr>
+            <h6 class="text-success">✔️ Correção Ideal:</h6>
+            <blockquote>
+                <strong>Executivo de Vendas com 8 anos de experiência</strong> no setor de tecnologia B2B, especializado em prospecção de contas enterprise e fechamento de ciclos de vendas complexos. Histórico comprovado de superação de metas, com um aumento de <strong>120% no faturamento</strong> do território sob minha responsabilidade nos últimos 2 anos. Busco alavancar minha expertise em negociação para expandir a carteira de clientes da [Nome da Empresa].
+            </blockquote>
+            <p><small><strong>Por que funciona:</strong> É um "pitch" de elevador. Quantifica a experiência, especifica o setor, destaca uma conquista numérica impressionante e demonstra pesquisa ao citar o nome da empresa.</small></p>
+        </div>
+    </div>
+
+    <!-- 3. Experiência Profissional -->
+    <h5 class="mt-4">Parte 3: Experiência Profissional</h5>
+    <div class="card mt-3">
+        <div class="card-body">
+            <h6 class="text-danger">❌ Exemplo Ruim:</h6>
+            <blockquote>
+                <strong>Gerente de Projetos | Empresa Y | 2020 - Atual</strong><br>
+                - Responsável pelo gerenciamento de projetos.<br>
+                - Delegação de tarefas para a equipe.<br>
+                - Acompanhamento do cronograma e orçamento.<br>
+                - Comunicação com stakeholders.
+            </blockquote>
+            <p><small><strong>Análise do Erro:</strong> Descreve as tarefas do cargo, não as conquistas. Qualquer gerente de projetos faz isso. Não mostra o seu diferencial.</small></p>
+            <hr>
+            <h6 class="text-success">✔️ Correção Ideal:</h6>
+            <blockquote>
+                <strong>Gerente de Projetos | Empresa Y | 2020 - Atual</strong><br>
+                - Liderei o ciclo completo de <strong>15+ projetos</strong> de software, do escopo à entrega, utilizando metodologias Ágeis (Scrum/Kanban).<br>
+                - Gerenciei equipes multidisciplinares de até 10 pessoas e orçamentos de até R$ 500 mil.<br>
+                - Implementei um novo sistema de reporting que <strong>aumentou a precisão do acompanhamento do cronograma em 40%</strong>.<br>
+                - Conquistei uma taxa de <strong>95% de entregas no prazo e dentro do orçamento</strong>, superando a média histórica de 70% do departamento.
+            </blockquote>
+            <p><small><strong>Por que funciona:</strong> Foco total em resultados e métricas. Usa números para dar escala às responsabilidades, menciona metodologias específicas (Ágil, Scrum) e destaca um impacto direto na melhoria de processos.</small></p>
+        </div>
+    </div>
+
+    <!-- 4. Formação Acadêmica -->
+    <h5 class="mt-4">Parte 4: Formação Acadêmica</h5>
+    <div class="card mt-3">
+        <div class="card-body">
+            <h6 class="text-danger">❌ Exemplo Ruim (Para profissionais experientes):</h6>
+            <blockquote>
+                - Ensino Médio Completo - Escola Estadual ABC (Concluído em 2005)<br>
+                - Graduação em Administração de Empresas - Universidade XYZ (2006 - 2010)<br>
+                - MBA em Gestão de Projetos - Fundação Z (2015-2016)
+            </blockquote>
+            <p><small><strong>Análise do Erro:</strong> Para um profissional experiente, o Ensino Médio é irrelevante. A ordem está cronológica, quando deveria ser do mais relevante para o menos.</small></p>
+            <hr>
+            <h6 class="text-success">✔️ Correção Ideal:</h6>
+            <blockquote>
+                - <strong>MBA em Gestão de Projetos</strong> | Fundação Z (Concluído em 2016)<br>
+                - <strong>Graduação em Administração de Empresas</strong> | Universidade XYZ (Concluído em 2010)
+            </blockquote>
+            <p><small><strong>Por que funciona:</strong> É limpo e direto. Coloca a formação mais alta primeiro e omite o Ensino Médio, que já é subentendido. Para recém-formados, seria válido incluir projetos de destaque ou TCC.</small></p>
+        </div>
+    </div>
+
+    <!-- 5. Competências / Habilidades -->
+    <h5 class="mt-4">Parte 5: Competências (Habilidades)</h5>
+    <div class="card mt-3">
+        <div class="card-body">
+            <h6 class="text-danger">❌ Exemplo Ruim:</h6>
+            <blockquote>Habilidades: Pacote Office, Proatividade, Trabalho em Equipe, Comunicação, Inglês.</blockquote>
+            <p><small><strong>Análise do Erro:</strong> Mistura habilidades técnicas (hard skills) com comportamentais (soft skills) de forma vaga. "Proatividade" e "Trabalho em Equipe" são clichês que devem ser demonstrados na seção de experiência, não listados aqui.</small></p>
+            <hr>
+            <h6 class="text-success">✔️ Correção Ideal:</h6>
+            <blockquote>
+                <strong>Competências Técnicas:</strong> Gestão de Projetos (JIRA, Asana, MS Project) | Metodologias Ágeis (Scrum, Kanban) | Análise de Dados (Excel Avançado, Power BI) | Pacote Office (Nível especialista).<br>
+                <strong>Idiomas:</strong> Inglês (Fluente/C1 - Certificado TOEFL) | Espanhol (Avançado/B2).
+            </blockquote>
+            <p><small><strong>Por que funciona:</strong> Separa as competências de forma clara. Especifica as ferramentas e metodologias, o que é muito mais valioso para os recrutadores e para os filtros ATS. O nível do idioma é claro e apoiado por uma certificação.</small></p>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+      </div>
+    </section>
+    <!-- =================================================================== -->
+    <!-- ============== FIM DA SEÇÃO DE CONTEÚDO DETALHADO ============== -->
+    <!-- =================================================================== -->
+
+
+    <!-- =================================================================== -->
+<!-- ============= INÍCIO DA NOVA SEÇÃO DE PLATAFORMAS DE EMPREGO ============= -->
+<!-- =================================================================== -->
+<section id="plataformas-emprego" class="container py-5">
+    <div class="text-center mb-5">
+      <h2 class="section-title">Dominando as Plataformas de Emprego</h2>
+      <p class="lead">Entenda como funcionam os bastidores do recrutamento digital e vença a inteligência artificial.</p>
+    </div>
+  
+    <!-- Navegação por Abas -->
+    <ul class="nav nav-tabs nav-fill mb-4" id="plataformasTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="gupy-tab" data-bs-toggle="tab" data-bs-target="#gupy-content" type="button" role="tab">Gupy</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="empregare-tab" data-bs-toggle="tab" data-bs-target="#empregare-content" type="button" role="tab">Empregare</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="glassdoor-tab" data-bs-toggle="tab" data-bs-target="#glassdoor-content" type="button" role="tab">Glassdoor</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="outros-tab" data-bs-toggle="tab" data-bs-target="#outros-content" type="button" role="tab">Outras Plataformas</button>
+      </li>
+    </ul>
+  
+    <!-- Conteúdo das Abas -->
+    <div class="tab-content" id="plataformasTabContent">
+  
+      <!-- Conteúdo 1: Gupy -->
+      <div class="tab-pane fade show active p-4" id="gupy-content" role="tabpanel">
+        <h4>Desvendando a Gupy: O Poder do ATS</h4>
+        <p>
+          A Gupy não é um "site de empregos" tradicional, mas sim um <strong>ATS (Applicant Tracking System)</strong>, ou Sistema de Rastreamento de Candidatos. Grandes empresas a utilizam para gerenciar todo o seu processo seletivo. Isso significa que seu primeiro "entrevistador" é um robô, uma inteligência artificial programada para encontrar as palavras-chave certas.
+        </p>
+  
+        <h5 class="mt-4">Como a IA da Gupy Pensa?</h5>
+        <p>A IA da Gupy lê o seu currículo e o compara com a descrição da vaga cadastrada pelo recrutador. Ela busca por <strong>correspondência de palavras-chave</strong>. Se a vaga pede "experiência com Power BI" e seu currículo não menciona essa ferramenta, sua pontuação de compatibilidade (match) será baixa, e você pode ser descartado antes mesmo de um humano ver seu perfil.</p>
+        
+        <div class="card exercise-card my-4">
+          <div class="card-header fw-bold text-success">
+            💡 Dica de Ouro: Como Vencer a IA da Gupy
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">A Estratégia do "Espelho de Palavras-Chave"</h6>
+            <p>Seu objetivo é espelhar a linguagem da vaga no seu currículo. Siga estes passos:</p>
+            <ol>
+              <li><strong>Analise a Descrição da Vaga:</strong> Copie e cole a descrição da vaga em um editor de texto. Destaque todas as competências técnicas (softwares, metodologias), habilidades comportamentais e responsabilidades listadas.</li>
+              <li><strong>Incorpore as Palavras-Chave:</strong> Certifique-se de que essas palavras exatas estejam presentes no seu currículo, especialmente nas seções de "Resumo Profissional" e na descrição das suas "Experiências". Se a vaga diz "gestão de stakeholders", a sua descrição de experiência deve conter a frase "gestão de stakeholders".</li>
+              <li><strong>Preenchimento Completo do Perfil:</strong> Nunca anexe apenas o currículo. Preencha <strong>TODOS</strong> os campos do cadastro da Gupy manualmente. Cada campo preenchido é uma nova fonte de dados para a IA te ranquear melhor.</li>
+              <li><strong>Consistência é Rei:</strong> As informações do seu currículo em anexo devem ser idênticas às que você preencheu nos campos da plataforma. Inconsistências podem penalizar sua pontuação.</li>
+            </ol>
+          </div>
+          <div class="card-footer">
+            <strong>Lembre-se:</strong> A IA não interpreta, ela compara. Não adianta ter a experiência se você não a descrever com as palavras que o robô está procurando.
+          </div>
+        </div>
+      </div>
+  
+      <!-- Conteúdo 2: Empregare -->
+      <div class="tab-pane fade p-4" id="empregare-content" role="tabpanel">
+          <h4>Dominando a Empregare: Cadastro e Etapas</h4>
+          <p>
+              Assim como a Gupy, a Empregare é outro gigante dos sistemas ATS no Brasil. Ela é conhecida por ter um processo seletivo dividido em múltiplas etapas, que podem incluir testes de perfil, lógica, e até entrevistas em vídeo gravadas. O segredo aqui é a <strong>preparação e a atenção aos detalhes</strong> em cada fase.
+          </p>
+  
+          <h5 class="mt-4">O Fluxo de Etapas da Empregare</h5>
+          <p>A plataforma permite que as empresas customizem o processo, mas um fluxo comum inclui:</p>
+          <ul class="list-group list-group-flush mb-3">
+              <li class="list-group-item"><strong>Cadastro e Triagem:</strong> Similar à Gupy, a IA faz a primeira triagem com base em palavras-chave.</li>
+              <li class="list-group-item"><strong>Testes Online:</strong> Testes de Fit Cultural, Perfil Comportamental (DISC, etc.), Raciocínio Lógico e Inglês são muito comuns.</li>
+              <li class="list-group-item"><strong>Entrevista em Vídeo Assimétrica:</strong> A plataforma te apresenta uma pergunta e você tem um tempo limitado (ex: 2 minutos) para gravar sua resposta em vídeo, sem um entrevistador presente.</li>
+          </ul>
+  
+          <div class="card exercise-card my-4">
+              <div class="card-header fw-bold text-success">
+                💡 Dica de Ouro: Como se Destacar na Empregare
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">A Preparação Vence o Jogo</h6>
+                <p>O sucesso na Empregare está na sua preparação para cada etapa:</p>
+                <ul class="list-unstyled">
+                  <li><strong class="text-white">✔️ Para os Testes:</strong> Responda com honestidade nos testes de perfil, mas tenha em mente a cultura da empresa. Para os de lógica, pratique online. Existem muitos simulados gratuitos que te ajudam a se familiarizar com o formato das questões.</li>
+                  <li><strong class="text-white">✔️ Para a Entrevista em Vídeo:</strong> Este é o seu "teste de palco".
+                      <ul>
+                          <li><strong>Prepare o Ambiente:</strong> Iluminação boa, fundo neutro, sem barulhos.</li>
+                          <li><strong>Vista-se Profissionalmente:</strong> Como se fosse para uma entrevista presencial.</li>
+                          <li><strong>Pratique a Resposta:</strong> Use a metodologia STAR (Situação, Tarefa, Ação, Resultado) para estruturar sua resposta. Grave-se no celular antes para controlar o tempo e ajustar sua postura. Olhe para a câmera, não para a sua imagem na tela.</li>
+                      </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <strong>Lembre-se:</strong> A entrevista em vídeo avalia não só o conteúdo, mas sua capacidade de comunicação, organização de ideias e profissionalismo em um formato digital.
+              </div>
+          </div>
+      </div>
+      
+      <!-- Conteúdo 3: Glassdoor -->
+      <div class="tab-pane fade p-4" id="glassdoor-content" role="tabpanel">
+          <h4>Glassdoor: A Sua Ferramenta de Espionagem Estratégica</h4>
+          <p>
+              O Glassdoor (ou "Porta de Vidro", em tradução livre) tem uma proposta diferente. Ele é uma comunidade onde funcionários e ex-funcionários avaliam as empresas de forma anônima. Seu poder não está em se candidatar pela plataforma, mas em usá-la como uma <strong>ferramenta de inteligência competitiva</strong> antes de qualquer entrevista.
+          </p>
+          <h5 class="mt-4">Como Usar o Glassdoor para Ganhar Vantagem</h5>
+          <div class="row">
+              <div class="col-md-6 mb-3">
+                  <div class="card h-100">
+                      <div class="card-body">
+                          <h6 class="card-title">1. Pesquisa Salarial</h6>
+                          <p>A seção "Salários" permite que você pesquise a faixa salarial para um cargo específico naquela empresa ou em empresas do mesmo setor e porte. Isso te dá poder de negociação na fase da proposta.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                  <div class="card h-100">
+                      <div class="card-body">
+                          <h6 class="card-title">2. Avaliações da Empresa</h6>
+                          <p>Leia as avaliações sobre a cultura, a liderança e o equilíbrio entre vida pessoal e profissional. Isso te ajuda a decidir se a empresa realmente tem a ver com você e a fazer perguntas mais inteligentes na entrevista.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-12">
+                  <div class="card h-100">
+                      <div class="card-body">
+                          <h6 class="card-title">3. Perguntas de Entrevista (A Mina de Ouro)</h6>
+                          <p>Na seção "Entrevistas", candidatos que já passaram pelo processo daquela empresa compartilham quais perguntas foram feitas, quais foram os testes e como foi a experiência. Estudar essa seção é como receber um "spoiler" da sua entrevista.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="alert alert-info mt-4">
+              <strong>Dica Estratégica:</strong> Antes de uma entrevista, entre no Glassdoor e procure pela empresa. Se você encontrar perguntas de entrevistas anteriores para a sua vaga, prepare as respostas usando a metodologia STAR. Chegar preparado para as perguntas exatas que podem ser feitas te coloca em uma posição de enorme vantagem.
+          </div>
+      </div>
+  
+      <!-- Conteúdo 4: Outras Plataformas -->
+      <div class="tab-pane fade p-4" id="outros-content" role="tabpanel">
+          <h4>O Ecossistema de Talentos: Outras Plataformas Relevantes</h4>
+          <p>O cenário de recrutamento é vasto. Além dos sistemas ATS, outras plataformas são cruciais na sua estratégia de busca de emprego.</p>
+          <ul class="list-group">
+              <li class="list-group-item">
+                  <h5>LinkedIn</h5>
+                  <p>Muito mais que um currículo online, o LinkedIn é a maior rede profissional do mundo. É uma plataforma de <strong>networking e marca pessoal</strong>. Ter um perfil campeão, interagir com conteúdo da sua área e se conectar com recrutadores e profissionais das empresas que você admira é fundamental. Muitas vagas são preenchidas através de uma abordagem direta de um recrutador (sourcing) pelo LinkedIn antes mesmo de serem anunciadas.</p>
+              </li>
+              <li class="list-group-item">
+                  <h5>Vagas.com.br</h5>
+                  <p>Um dos portais de emprego mais tradicionais e robustos do Brasil. Assim como Gupy e Empregare, funciona como um ATS para muitas empresas. A lógica de otimização de currículo com palavras-chave e preenchimento completo do perfil também é essencial aqui.</p>
+              </li>
+              <li class="list-group-item">
+                  <h5>Catho</h5>
+                  <p>Uma plataforma clássica, conhecida por seu modelo de assinatura para candidatos. Embora muitas vagas também estejam em outros portais, a Catho ainda é valorizada por algumas empresas e pode oferecer ferramentas adicionais, como análise de currículo e envio de CV para vagas sigilosas.</p>
+              </li>
+          </ul>
+          <div class="alert alert-success mt-4">
+              <strong>Conclusão Estratégica:</strong> Não aposte todas as suas fichas em um único lugar. Uma estratégia de busca de emprego eficaz é diversificada: mantenha seu perfil campeão e atualizado no <strong>LinkedIn</strong> para ser encontrado, adapte seu currículo para cada candidatura nos sistemas <strong>ATS (Gupy, Vagas, Empregare)</strong> e use o <strong>Glassdoor</strong> como sua ferramenta de pesquisa e preparação.
+          </div>
+      </div>
+  
+    </div>
+  </section>
+  <!-- =================================================================== -->
+  <!-- ============== FIM DA NOVA SEÇÃO DE PLATAFORMAS DE EMPREGO ============== -->
+  <!-- =================================================================== -->
+  
+
+
+<!-- =================================================================== -->
+<!-- ============= INÍCIO DA NOVA SEÇÃO - RECRUTAMENTO DIGITAL ============= -->
+<!-- =================================================================== -->
+<section id="recrutamento-digital" class="py-5 bg-dark">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title display-4 text-white">Decifrando o Recrutamento Digital</h2>
+        <p class="lead text-white-50">Um guia estratégico para navegar nas principais plataformas e transformar sua candidatura em uma oferta.</p>
+      </div>
+  
+      <!-- Navegação por Abas -->
+      <ul class="nav nav-pills nav-fill mb-4" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-linkedin-tab" data-bs-toggle="pill" data-bs-target="#pills-linkedin" type="button" role="tab">LinkedIn</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-gupy-tab" data-bs-toggle="pill" data-bs-target="#pills-gupy" type="button" role="tab">Gupy</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-empregare-tab" data-bs-toggle="pill" data-bs-target="#pills-empregare" type="button" role="tab">Empregare</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-glassdoor-tab" data-bs-toggle="pill" data-bs-target="#pills-glassdoor" type="button" role="tab">Glassdoor</button>
+        </li>
+      </ul>
+  
+      <!-- Conteúdo das Abas -->
+      <div class="tab-content" id="pills-tabContent">
+  
+        <!-- Conteúdo LinkedIn -->
+        <div class="tab-pane fade show active p-4" id="pills-linkedin" role="tabpanel">
+          <h4>LinkedIn: O Seu Palco Profissional Estratégico</h4>
+          <p>O LinkedIn não é um currículo, é o seu ecossistema profissional. É onde você constrói sua marca, cria conexões e é encontrado por oportunidades que nunca chegam aos sites de vagas. Dominá-lo é uma das habilidades mais importantes da sua carreira.</p>
+  
+          <h5 class="mt-4">Otimização de Perfil: De Passivo a "Imã de Recrutadores"</h5>
+          <div class="card exercise-card mb-4">
+            <div class="card-body">
+              <h6 class="text-danger">❌ Perfil Ruim:</h6>
+              <p><strong>Título:</strong> "Em busca de recolocação profissional"<br><strong>Resumo (Sobre):</strong> Vazio ou com uma frase genérica.</p>
+              <p><small><strong>Análise:</strong> Um título assim te torna invisível para as buscas dos recrutadores, que procuram por cargos e competências. Um resumo vazio é uma oportunidade perdida de vender seu valor.</small></p>
+              <hr>
+              <h6 class="text-success">✔️ Perfil Otimizado:</h6>
+              <p><strong>Título:</strong> "Desenvolvedor(a) de Software | Java | Spring Boot | AWS | Microsserviços"<br><strong>Resumo (Sobre):</strong> "Desenvolvedor de Software com 5+ anos de experiência na construção de sistemas escaláveis para o setor financeiro. Apaixonado por arquitetura de microsserviços e soluções em nuvem (AWS). No meu último projeto, liderei a refatoração de um módulo legado que resultou em uma redução de 30% na latência das requisições. Competências: Java, Spring, Docker, Kubernetes, SQL, NoSQL. Aberto a oportunidades em fintechs e empresas de tecnologia."</p>
+              <p><small><strong>Por que funciona:</strong> O título é recheado de palavras-chave que os recrutadores usam. O resumo conta uma história, destaca uma conquista, lista as tecnologias-chave e declara o objetivo, tudo em um parágrafo.</small></p>
+            </div>
+          </div>
+  
+          <h5 class="mt-4">Estratégia de Conteúdo e Networking Ativo</h5>
+          <ul>
+            <li><strong>Seja um Contribuinte, não um Pássaro:</strong> Não apareça na rede só para "piar" que está procurando emprego. Compartilhe artigos interessantes da sua área, comente de forma inteligente nas publicações de outros profissionais, escreva um pequeno texto sobre um projeto que te ensinou algo. Isso demonstra paixão e conhecimento.</li>
+            <li><strong>A Conexão Estratégica:</strong> Ao se conectar com um recrutador ou gestor de uma empresa-alvo, <strong>SEMPRE</strong> adicione uma nota personalizada.</li>
+          </ul>
+          <div class="alert alert-light">
+            <strong>❌ Ruim:</strong> Apenas clicar em "Conectar".<br>
+            <strong>✔️ Ideal:</strong> "Olá, [Nome do Recrutador]. Vi que você é responsável pelo recrutamento de tecnologia na [Nome da Empresa]. Admiro muito o trabalho que vocês têm feito com [mencione um projeto ou produto específico da empresa]. Adoraria me conectar para acompanhar as novidades e futuras oportunidades. Obrigado!"
+          </div>
+        </div>
+  
+        <!-- Conteúdo Gupy -->
+        <div class="tab-pane fade p-4" id="pills-gupy" role="tabpanel">
+          <h4>Desvendando a Gupy: O Poder do ATS</h4>
+          <p>A Gupy é um <strong>ATS (Applicant Tracking System)</strong>. Seu primeiro "entrevistador" é uma inteligência artificial programada para encontrar as palavras-chave certas.</p>
+  
+          <h5 class="mt-4">Exemplo Prático: A Estratégia do "Espelho"</h5>
+          <div class="card exercise-card mb-4">
+              <div class="card-body">
+                  <p><strong>Descrição da Vaga diz:</strong> "Requisitos: Experiência com <strong>gestão de mídias sociais</strong>, conhecimento em <strong>ferramentas de agendamento</strong> como a mLabs, e habilidade para <strong>análise de métricas</strong> de engajamento."</p>
+                  <hr>
+                  <h6 class="text-danger">❌ Descrição no seu currículo:</h6>
+                  <blockquote>- Postava no Instagram e Facebook.<br>- Usava programas para fazer posts.<br>- Via as curtidas e comentários.</blockquote>
+                  <p><small><strong>Análise:</strong> Embora você faça o que a vaga pede, você não está usando a linguagem que a IA procura. Sua pontuação será baixa.</small></p>
+                  <hr>
+                  <h6 class="text-success">✔️ Descrição otimizada no seu currículo:</h6>
+                  <blockquote>- Realizei a <strong>gestão de mídias sociais</strong> (Instagram, Facebook) com foco em crescimento de audiência.<br>- Utilizei <strong>ferramentas de agendamento</strong>, como a mLabs, para otimizar a frequência de publicações.<br>- Fiz a <strong>análise de métricas</strong> de engajamento para gerar relatórios de performance semanais.</blockquote>
+                  <p><small><strong>Por que funciona:</strong> Você espelhou as palavras-chave exatas da vaga, garantindo um "match" alto com o que a IA está programada para encontrar.</small></p>
+              </div>
+              <div class="card-footer">
+                  <strong>Dica Adicional:</strong> Preencha <strong>TODOS</strong> os campos do cadastro da Gupy. Se houver um campo "Fale sobre sua experiência com liderança" e você deixar em branco, perderá pontos preciosos.
+              </div>
+          </div>
+        </div>
+  
+        <!-- Conteúdo Empregare -->
+        <div class="tab-pane fade p-4" id="pills-empregare" role="tabpanel">
+          <h4>Dominando a Empregare: Cadastro e Etapas</h4>
+          <p>A Empregare também é um ATS robusto, conhecido por seu processo seletivo dividido em múltiplas etapas, incluindo testes e entrevistas em vídeo.</p>
+  
+          <h5 class="mt-4">Exemplo Prático: A Entrevista em Vídeo Assimétrica</h5>
+          <div class="card exercise-card mb-4">
+              <div class="card-body">
+                  <p><strong>A plataforma te pergunta:</strong> "Fale sobre um desafio que você enfrentou e como o superou."</p>
+                  <hr>
+                  <h6 class="text-danger">❌ Resposta Ruim:</h6>
+                  <blockquote>"Ah, teve uma vez que um projeto estava atrasado, foi bem difícil, mas aí a gente trabalhou bastante, conversamos e no final deu tudo certo. Foi um grande aprendizado."</blockquote>
+                  <p><small><strong>Análise:</strong> Vago, sem estrutura, não demonstra o seu papel específico e nem o resultado concreto.</small></p>
+                  <hr>
+                  <h6 class="text-success">✔️ Resposta Estruturada (Método STAR):</h6>
+                  <blockquote>
+                      <p><strong>(Situação)</strong> "No meu último projeto, a duas semanas do prazo final, nosso principal fornecedor de matéria-prima informou que não conseguiria fazer a entrega, o que paralisaria nossa produção."</p>
+                      <p><strong>(Tarefa)</strong> "Minha tarefa era encontrar uma solução em 48 horas para não comprometer o prazo com o cliente final."</p>
+                      <p><strong>(Ação)</strong> "Imediatamente, eu ativei minha rede de contatos, pesquisei fornecedores alternativos, negociei prazos e preços com três deles, e apresentei uma análise comparativa para minha diretoria."</p>
+                      <p><strong>(Resultado)</strong> "Conseguimos fechar com um novo fornecedor em 24 horas, com um custo apenas 5% maior, e o mais importante: garantimos a entrega para o cliente na data combinada, evitando uma multa contratual e fortalecendo nosso relacionamento com ele."</p>
+                  </blockquote>
+                  <p><small><strong>Por que funciona:</strong> É uma história clara, com começo, meio e fim. Demonstra proatividade, capacidade de negociação e foco em resultados mensuráveis.</small></p>
+              </div>
+          </div>
+        </div>
+        
+        <!-- Conteúdo Glassdoor -->
+        <div class="tab-pane fade p-4" id="pills-glassdoor" role="tabpanel">
+          <h4>Glassdoor: A Sua Ferramenta de Espionagem Estratégica</h4>
+          <p>O Glassdoor é sua arma secreta para entrar em qualquer entrevista com mais informação que os outros candidatos.</p>
+          <h5 class="mt-4">Plano de Ação Prático para Usar o Glassdoor</h5>
+          <div class="accordion" id="accordionGlassdoor">
+              <div class="accordion-item">
+                  <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseG1"><strong>Passo 1: A Véspera da Entrevista</strong></button></h2>
+                  <div id="collapseG1" class="accordion-collapse collapse" data-bs-parent="#accordionGlassdoor"><div class="accordion-body">Acesse a página da empresa no Glassdoor. Vá direto para a aba <strong>"Entrevistas"</strong>. Filtre pelo cargo que você está aplicando ou por cargos similares. Anote as perguntas mais frequentes que outros candidatos relataram.</div></div>
+              </div>
+              <div class="accordion-item">
+                  <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseG2"><strong>Passo 2: Análise Cultural</strong></button></h2>
+                  <div id="collapseG2" class="accordion-collapse collapse" data-bs-parent="#accordionGlassdoor"><div class="accordion-body">Vá para a aba <strong>"Avaliações"</strong>. Leia os "Prós" e os "Contras" mencionados pelos funcionários. Isso te dará uma visão realista da cultura. Se muitos mencionam "oportunidade de crescimento" como um "Pró", você pode usar isso na sua resposta para "Por que você quer trabalhar aqui?".</div></div>
+              </div>
+              <div class="accordion-item">
+                  <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseG3"><strong>Passo 3: Negociação Salarial</strong></button></h2>
+                  <div id="collapseG3" class="accordion-collapse collapse" data-bs-parent="#accordionGlassdoor"><div class="accordion-body">Consulte a aba <strong>"Salários"</strong>. Verifique a média salarial para o seu cargo naquela empresa. Isso te dará uma base sólida e realista para quando a conversa sobre remuneração acontecer, evitando que você peça muito abaixo ou muito acima do praticado.</div></div>
+              </div>
+          </div>
+          <div class="alert alert-info mt-4">
+              <strong>Exemplo de Uso:</strong> Você descobre no Glassdoor que uma pergunta comum na empresa é "Como você lida com feedbacks negativos?". Em vez de ser pego de surpresa, você já prepara uma resposta excelente usando o método STAR, demonstrando maturidade e profissionalismo.
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  <!-- =================================================================== -->
+  <!-- ============== FIM DA NOVA SEÇÃO - RECRUTAMENTO DIGITAL ============== -->
+  <!-- =================================================================== -->
+  
+  
+
+<!-- =================================================================== -->
+<!-- =========== INÍCIO DA SEÇÃO PILAR ESTRATÉGICO ============ -->
+<!-- =================================================================== -->
+<section id="pilar-estrategico" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">O Pilar Estratégico</h2>
+        <p class="lead">Cultura, Liderança e Clima Organizacional: A base para o sucesso do negócio.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100 feature-card">
+            <div class="card-body">
+              <h5 class="card-title">Cultura Organizacional</h5>
+              <p>É o "jeito de ser" da empresa. Detalhamos como diagnosticar a cultura atual (usando ferramentas como o OCAI) e como o RH pode liderar iniciativas para fortalecer uma cultura desejada, alinhada aos valores e à estratégia.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100 feature-card">
+            <div class="card-body">
+              <h5 class="card-title">Desenvolvimento de Lideranças</h5>
+              <p>A diferença crucial entre chefiar e liderar. Apresentamos um guia para criar programas de formação de líderes, desde a identificação de potenciais (usando a matriz Nine Box) até a implementação de programas de mentoria e coaching.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100 feature-card">
+            <div class="card-body">
+              <h5 class="card-title">Gestão de Clima e Engajamento</h5>
+              <p>Aprenda a medir o pulso da organização com pesquisas de clima e a métrica e-NPS (Employee Net Promoter Score). Oferecemos um "cardápio" de ações para melhorar o engajamento, como programas de reconhecimento e comunicação transparente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- =================================================================== -->
+  <!-- =========== INÍCIO DA SEÇÃO FUTURO DO RH ============ -->
+  <!-- =================================================================== -->
+  <section id="futuro-rh" class="py-5 bg-dark">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title text-white">O Futuro é Agora</h2>
+        <p class="lead text-white-50">RH 4.0, People Analytics e a revolução dos dados na gestão de pessoas.</p>
+      </div>
+      <div class="accordion" id="accordionFuturoRH">
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAnalytics">People Analytics na Prática</button></h2>
+          <div id="collapseAnalytics" class="accordion-collapse collapse show" data-bs-parent="#accordionFuturoRH">
+            <div class="accordion-body">
+              <strong>O que é:</strong> A prática de coletar e analisar dados de pessoas para tomar decisões mais inteligentes. Em vez de "achismos", usamos evidências.<br>
+              <strong>Exemplo:</strong> Ao analisar dados de demissão, o RH descobre que 60% dos talentos que saem da empresa trabalham em equipes cujos líderes tiveram baixa avaliação 360°. A ação não é contratar mais, mas sim treinar esses líderes.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGamification">Gamificação no RH</button></h2>
+          <div id="collapseGamification" class="accordion-collapse collapse" data-bs-parent="#accordionFuturoRH">
+            <div class="accordion-body">
+              <strong>O que é:</strong> O uso de elementos de jogos (pontos, rankings, medalhas, missões) para engajar colaboradores em processos de RH.<br>
+              <strong>Exemplo:</strong> Criar um programa de onboarding "gamificado", onde o novo colaborador desbloqueia "conquistas" e ganha pontos ao completar cada etapa do treinamento, tornando o processo mais lúdico e eficaz.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- =================================================================== -->
+  <!-- =========== INÍCIO DA SEÇÃO PILAR HUMANO ============ -->
+  <!-- =================================================================== -->
+  <section id="pilar-humano" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">O Pilar Humano</h2>
+        <p class="lead">Bem-estar, Diversidade, Equidade, Inclusão e Remuneração Total.</p>
+      </div>
+      <div class="row">
+          <div class="col-lg-4 mb-4">
+              <div class="card h-100 feature-card">
+                <div class="card-body">
+                  <h5 class="card-title">Saúde Mental e Bem-Estar</h5>
+                  <p>O papel do RH na criação de um ambiente psicologicamente seguro, onde as pessoas possam ser autênticas sem medo de punição. Apresentamos estratégias para combater o burnout e promover a qualidade de vida no trabalho (QVT).</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+              <div class="card h-100 feature-card">
+                <div class="card-body">
+                  <h5 class="card-title">Diversidade, Equidade & Inclusão (DE&I)</h5>
+                  <p>Aprofundamos os conceitos: Diversidade é chamar para a festa, Inclusão é convidar para dançar, e Equidade é garantir que todos possam chegar à pista. Mostramos como combater vieses inconscientes e estruturar vagas afirmativas.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+              <div class="card h-100 feature-card">
+                <div class="card-body">
+                  <h5 class="card-title">Remuneração Total</h5>
+                  <p>Expandimos o conceito de salário para "Remuneração Total", que engloba o fixo, o variável (bônus, PLR), benefícios flexíveis e oportunidades de desenvolvimento, elementos cruciais para atrair e reter talentos hoje.</p>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- =================================================================== -->
+  <!-- =========== INÍCIO DA SEÇÃO ESG ============ -->
+  <!-- =================================================================== -->
+  <section id="esg-rh" class="py-5 bg-dark">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title text-white">ESG no RH</h2>
+        <p class="lead text-white-50">Construindo um Futuro Sustentável através da Gestão de Pessoas.</p>
+      </div>
+      <div class="row text-white">
+          <div class="col-md-4 mb-3"><strong>Ambiental (Environmental):</strong> O RH promove práticas sustentáveis, como políticas de home office para reduzir a emissão de carbono, campanhas de conscientização e metas de sustentabilidade atreladas à remuneração variável.</div>
+          <div class="col-md-4 mb-3"><strong>Social:</strong> É o coração do RH. Envolve garantir práticas de trabalho justas, promover a saúde e segurança, investir em DE&I, e engajar a empresa em projetos com a comunidade local.</div>
+          <div class="col-md-4 mb-3"><strong>Governança (Governance):</strong> O RH garante a ética e a transparência através de um código de conduta claro, canais de denúncia seguros, políticas anticorrupção e uma estrutura de remuneração justa para os executivos.</div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- =================================================================== -->
+  <!-- =========== INÍCIO DA SEÇÃO AVALIAÇÃO PSICOLÓGICA ============ -->
+  <!-- =================================================================== -->
+  <section id="avaliacao-psicologica" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Avaliação Psicológica</h2>
+        <p class="lead">Mapeando comportamentos e potenciais com ciência e ética.</p>
+      </div>
+      <div class="alert alert-warning">
+        <strong>Atenção:</strong> A aplicação e interpretação de testes psicológicos são atos privativos de psicólogos com CRP ativo, conforme a Lei nº 4.119/62. Ferramentas de análise de perfil (como DISC) podem ser usadas por outros profissionais, mas não são consideradas "testes psicológicos".
+      </div>
+      <p>A avaliação psicológica no contexto organizacional busca entender traços de personalidade, habilidades cognitivas e tendências comportamentais para apoiar decisões de contratação e desenvolvimento. Ferramentas comuns incluem:</p>
+      <ul class="list-group">
+          <li class="list-group-item"><strong>DISC:</strong> Avalia quatro tendências comportamentais: Dominância, Influência, Estabilidade (Steadiness) e Conformidade (Conscientiousness).</li>
+          <li class="list-group-item"><strong>MBTI (Myers-Briggs Type Indicator):</strong> Mapeia 16 tipos de personalidade com base em preferências como Introversão/Extroversão, etc.</li>
+          <li class="list-group-item"><strong>Testes de Habilidades Cognitivas:</strong> Como o G38, que mede inteligência não-verbal.</li>
+      </ul>
+    </div>
+  </section>
+  
+
+
+
+    <!-- Rodapé -->
+    <footer class="text-center py-4 mt-5">
+      <div class="container">
+        <span class="text-white-50"
+          >&copy; <span id="current-year">2025</span> Gestão RH. Desenvolvido
+          por bruno-a-dias.</span
+        >
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- CAMINHO para a pasta JS -->
+    <script src="./assets/js/script.js"></script>
+
+<!-- Botão Voltar ao Topo -->
+<a href="#" id="back-to-top" class="btn btn-custom back-to-top-btn d-none">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+    </svg>
+  </a>
+  
+
+  </body>
+</html>

@@ -1,0 +1,253 @@
+/* Configurações Gerais */
+body {
+    background: linear-gradient(135deg, #0a192f, #172a45);
+    color: #e6f1ff;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    padding-top: 70px; /* Evita que o conteúdo fique atrás do navbar fixo */
+  }
+  
+  /* Barra de Navegação */
+  .navbar {
+    background: rgba(10, 25, 47, 0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #0d253f;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .navbar .nav-link, .navbar .navbar-brand {
+      color: #cdd6f6;
+      transition: color 0.3s;
+  }
+  .navbar .nav-link:hover, .navbar .navbar-brand:hover {
+      color: #64ffda;
+  }
+  .navbar-toggler {
+      border-color: rgba(100, 255, 218, 0.5);
+  }
+  .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(100, 255, 218, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+  /* Títulos de Seção */
+  .section-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #ccd6f6;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  }
+  
+  /* Cards de Serviço */
+  .card {
+    border-radius: 1rem;
+    border: 1px solid rgba(100, 255, 218, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: rgba(23, 42, 69, 0.7);
+    backdrop-filter: blur(5px);
+    color: #a8b2d1;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+  }
+  .card-title {
+      color: #64ffda;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .interactive-card {
+    cursor: pointer;
+  }
+  
+  /* Botão Customizado */
+  .btn-custom {
+    background-color: transparent;
+    color: #64ffda;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  .btn-custom:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+    color: #64ffda;
+  }
+  
+  /* Seção Parallax */
+  .parallax-section {
+    background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .parallax-section::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(10, 25, 47, 0.5); /* Overlay escuro */
+  }
+  .parallax-section .container {
+      z-index: 2; /* Garante que o conteúdo fique acima do overlay */
+  }
+  
+  /* Animação de Fade-in */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Rodapé */
+  footer {
+      background: transparent;
+      border-top: 1px solid #0d253f;
+  }
+  
+  /* Estilos para os Modais Interativos */
+  .modal-content {
+    background-color: #172a46;
+    border: 1px solid rgba(100, 255, 218, 0.2);
+    color: #a8b2d1;
+  }
+  .modal-header {
+    border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+  }
+  .modal-title {
+    color: #64ffda;
+  }
+  .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+  }
+  .accordion-item, .list-group-item, .nav-tabs, .tab-content {
+      background-color: #0a192f;
+      border-color: rgba(100, 255, 218, 0.1);
+      color: #a8b2d1;
+  }
+  .accordion-button {
+      background-color: #112240;
+      color: #ccd6f6;
+  }
+  .accordion-button:not(.collapsed) {
+      background-color: #233554;
+      color: #64ffda;
+  }
+  .accordion-button:focus {
+      box-shadow: none;
+  }
+  .nav-tabs .nav-link {
+      color: #a8b2d1;
+      border: 1px solid transparent;
+  }
+  .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+      color: #64ffda;
+      background-color: #112240;
+      border-color: rgba(100, 255, 218, 0.2);
+  }
+  .table {
+      --bs-table-bg: transparent;
+      --bs-table-color: #a8b2d1;
+      --bs-table-border-color: rgba(100, 255, 218, 0.1);
+      --bs-table-hover-color: #ccd6f6;
+      --bs-table-hover-bg: #112240;
+  }
+  .table thead th {
+      color: #64ffda;
+  }
+  
+  /* ================================== */
+/* === Estilos para a Nova Seção === */
+/* ================================== */
+
+#detalhes-servicos .tab-pane {
+    background-color: rgba(23, 42, 69, 0.7);
+    border: 1px solid rgba(100, 255, 218, 0.1);
+    border-radius: 0.5rem;
+    backdrop-filter: blur(5px);
+  }
+  
+  #detalhes-servicos .nav-tabs .nav-link {
+    color: #a8b2d1;
+    border-color: transparent;
+    border-bottom: 2px solid transparent;
+  }
+  
+  #detalhes-servicos .nav-tabs .nav-link.active,
+  #detalhes-servicos .nav-tabs .nav-item.show .nav-link {
+    color: #64ffda;
+    background-color: transparent;
+    border-bottom: 2px solid #64ffda;
+  }
+  
+  .exercise-card {
+    background-color: #0a192f;
+    border: 1px dashed rgba(100, 255, 218, 0.3);
+  }
+  
+  /* ===================================================== */
+/* === Estilos para as Novas Seções de Conteúdo === */
+/* ===================================================== */
+
+/* Estilo para a seção Pilar Estratégico e Pilar Humano */
+#pilar-estrategico, #pilar-humano, #avaliacao-psicologica {
+    background-color: #0d253f; /* Um tom de azul ligeiramente diferente */
+  }
+  
+  .feature-card {
+    background: rgba(10, 25, 47, 0.7);
+    border: 1px solid rgba(100, 255, 218, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #a8b2d1;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(2, 12, 27, 0.5);
+  }
+  
+  .feature-card .card-title {
+    color: #64ffda;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Estilo para a seção Futuro do RH e ESG */
+  #futuro-rh, #esg-rh {
+    border-top: 1px solid #64ffda;
+    border-bottom: 1px solid #64ffda;
+  }
+  
+  #futuro-rh .accordion-item, #esg-rh .accordion-item {
+      background-color: #0a192f;
+      border-color: rgba(100, 255, 218, 0.1);
+  }
+  #futuro-rh .accordion-button, #esg-rh .accordion-button {
+      background-color: #112240;
+      color: #ccd6f6;
+  }
+  #futuro-rh .accordion-button:not(.collapsed), #esg-rh .accordion-button:not(.collapsed) {
+      color: #64ffda;
+  }
+
+  /* Estilo para o Botão Voltar ao Topo */
+.back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    padding: 0.5rem 0.8rem;
+    border-radius: 50%;
+  }
+  
